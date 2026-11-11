@@ -1,0 +1,40 @@
+{
+  "format": "plmaterial",
+  "version": 1,
+  "model": "pbr_metallic_roughness",
+  "base_color": [
+    0.025,
+    0.38,
+    0.42,
+    1
+  ],
+  "roughness": 0.6,
+  "metalness": 0,
+  "ior": 1.5,
+  "normal_map_strength": 1,
+  "occlusion_strength": 1,
+  "alpha": {
+    "mode": "mask",
+    "cutoff": 0.5
+  },
+  "textures": {
+    "base_color": {
+      "resource": "/assets/dev/textures/showcase_cutout.pltexture",
+      "uv_set": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0
+    }
+  },
+  "double_sided": true,
+  "clearcoat": {
+    "factor": 0,
+    "roughness": 0.2
+  }
+}

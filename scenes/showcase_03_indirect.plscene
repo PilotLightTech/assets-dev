@@ -1,0 +1,473 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_night.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_gi.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          12,
+          8,
+          18
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.5535900500422257,
+        "pitch": -0.3129425995436771,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          8,
+          0.3,
+          6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          7.7,
+          0.04,
+          5.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Coral bounce wall"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          2.5,
+          -1
+        ],
+        "scale": [
+          0.15,
+          2.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Green bounce wall / forward"
+      },
+      "transform": {
+        "translation": [
+          6,
+          2.5,
+          -1
+        ],
+        "scale": [
+          0.15,
+          2.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_green_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Back wall"
+      },
+      "transform": {
+        "translation": [
+          0,
+          2.5,
+          -5
+        ],
+        "scale": [
+          6,
+          2.5,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "ivory bounce receiver"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          1.2,
+          -0.8
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "forward bounce receiver"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          1.2,
+          -0.8
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "chrome bounce receiver"
+      },
+      "transform": {
+        "translation": [
+          3.2,
+          1.2,
+          -0.8
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Occlusion bench"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.55,
+          3
+        ],
+        "scale": [
+          3,
+          0.15,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Bench leg"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          0.2,
+          3
+        ],
+        "scale": [
+          0.15,
+          0.2,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Bench leg"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          0.2,
+          3
+        ],
+        "scale": [
+          0.15,
+          0.2,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Ceiling point"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0,
+          4.8,
+          1
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "intensity": 100,
+        "range": 20,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": true,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    }
+  ]
+}

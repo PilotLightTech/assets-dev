@@ -1,0 +1,76 @@
+{
+  "format": "plrenderer",
+  "version": 1,
+  "sky": {
+    "sky_lut_resolution": [
+      200,
+      100
+    ],
+    "transmission_lut_resolution": [
+      256,
+      256
+    ],
+    "multiscatter_lut_resolution": [
+      64,
+      64
+    ],
+    "aerial_lut_resolution": [
+      128,
+      128,
+      32
+    ]
+  },
+  "lighting": {
+    "image_based": false,
+    "normal_mapping": true,
+    "punctual_lights": true,
+    "shadows": true
+  },
+  "shadows": {
+    "max_range": 100,
+    "cascade_count": 3,
+    "resolution": 2048,
+    "pcf": true,
+    "contact_shadows": true,
+    "contact_length": 0.3,
+    "contact_thickness": 0.05,
+    "contact_bias": 0.01,
+    "contact_steps": 16,
+    "multiviewport": true,
+    "constant_bias": -1,
+    "slope_bias": -1.0
+  },
+  "fxaa": {
+    "enabled": true
+  },
+  "ambient_occlusion": {
+    "mode": "none",
+    "radius": 0.5,
+    "strength": 1,
+    "bias": 0.05
+  },
+  "ssgi": {
+    "enabled": true,
+    "strength": 1,
+    "radius": 2,
+    "thickness": 0.15,
+    "ray_count": 8,
+    "step_count": 16
+  },
+  "bloom": {
+    "enabled": false,
+    "strength": 0.05,
+    "radius": 1.5,
+    "chain_length": 5
+  },
+  "fog": {
+    "enabled": false
+  },
+  "tonemap": {
+    "mode": "pbr_neutral",
+    "exposure": 1,
+    "brightness": 0,
+    "contrast": 1,
+    "saturation": 1
+  }
+}

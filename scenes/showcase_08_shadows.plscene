@@ -1,0 +1,1628 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_quality.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          13,
+          7,
+          32
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.896613990462929,
+        "pitch": -0.09301376311831384,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          18,
+          0.3,
+          90
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          17.7,
+          0.04,
+          89.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Distance station 0 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          12
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Distance station 0 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          12
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Distance station 0 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          12
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Distance station 0 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          15
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Distance station 0 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          15
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Distance station 1 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          0
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Distance station 1 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          0
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Distance station 1 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          0
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Distance station 1 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          3
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Distance station 1 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Distance station 2 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          -16
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Distance station 2 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          -16
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Distance station 2 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          -16
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Distance station 2 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          -13
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Distance station 2 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          -13
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Distance station 3 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          -36
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Distance station 3 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          -36
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Distance station 3 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          -36
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Distance station 3 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          -33
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Distance station 3 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          -33
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Distance station 4 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          -64
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Distance station 4 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          -64
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Distance station 4 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          -64
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "Distance station 4 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          -61
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 28,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "Distance station 4 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          -61
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 29,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "tag": {
+        "name": "Distance station 5 / pillar"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          -82
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 30,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "tag": {
+        "name": "Distance station 5 / pillar"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          -82
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 31,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "tag": {
+        "name": "Distance station 5 / lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          8,
+          -82
+        ],
+        "scale": [
+          8.7,
+          0.45,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 32,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "tag": {
+        "name": "Distance station 5 / thin wall"
+      },
+      "transform": {
+        "translation": [
+          2,
+          2,
+          -79
+        ],
+        "scale": [
+          0.035,
+          2,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 33,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "tag": {
+        "name": "Distance station 5 / floating contact target"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.7,
+          -79
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 34,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.075,
+          16.0
+        ],
+        "scale": [
+          1.8,
+          0.075,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 35,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.15,
+          15.2
+        ],
+        "scale": [
+          1.8,
+          0.15,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 36,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.22499999999999998,
+          14.4
+        ],
+        "scale": [
+          1.8,
+          0.22499999999999998,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 37,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.3,
+          13.6
+        ],
+        "scale": [
+          1.8,
+          0.3,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 38,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.375,
+          12.8
+        ],
+        "scale": [
+          1.8,
+          0.375,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 39,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.44999999999999996,
+          12.0
+        ],
+        "scale": [
+          1.8,
+          0.44999999999999996,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 40,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.525,
+          11.2
+        ],
+        "scale": [
+          1.8,
+          0.525,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 41,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.6,
+          10.399999999999999
+        ],
+        "scale": [
+          1.8,
+          0.6,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 42,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.6749999999999999,
+          9.6
+        ],
+        "scale": [
+          1.8,
+          0.6749999999999999,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 43,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.75,
+          8.8
+        ],
+        "scale": [
+          1.8,
+          0.75,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 44,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.825,
+          8.0
+        ],
+        "scale": [
+          1.8,
+          0.825,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 45,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "tag": {
+        "name": "Stair tread"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.8999999999999999,
+          7.199999999999999
+        ],
+        "scale": [
+          1.8,
+          0.8999999999999999,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 46,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    }
+  ]
+}

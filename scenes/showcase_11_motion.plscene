@@ -1,0 +1,988 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_coast.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_integrated.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Automated camera / 40 second loop"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          0,
+          5,
+          24
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": 3.141592653589793,
+        "pitch": -0.08314123188844123,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "transform": {
+        "translation": [
+          0,
+          5,
+          24
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          15,
+          0.3,
+          12
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          14.7,
+          0.04,
+          11.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -10.0,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -8.6,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -7.2,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -5.800000000000001,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -4.4,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -3.0,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -1.6000000000000014,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          -0.20000000000000107,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          1.1999999999999993,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          2.5999999999999996,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          4.0,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          5.399999999999999,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          6.799999999999997,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          8.2,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Thin foreground fence"
+      },
+      "transform": {
+        "translation": [
+          9.599999999999998,
+          3,
+          8
+        ],
+        "scale": [
+          0.045,
+          3,
+          0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          -9,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_teal.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          0,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          3,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_teal.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          6,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Color behind moving occluder"
+      },
+      "transform": {
+        "translation": [
+          9,
+          1.3,
+          -3
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Moving occluder"
+      },
+      "transform": {
+        "translation": [
+          -7,
+          3,
+          2
+        ],
+        "scale": [
+          2,
+          3,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "moving_occluder / looping motion"
+      },
+      "animation": {
+        "animation": "/assets/dev/animations/showcase_moving_occluder.planimation",
+        "targets": [
+          27
+        ],
+        "playing": true,
+        "looped": true,
+        "speed": 1,
+        "blend_amount": 1
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "camera_disocclusion / looping motion"
+      },
+      "animation": {
+        "animation": "/assets/dev/animations/showcase_camera_disocclusion.planimation",
+        "targets": [
+          2
+        ],
+        "playing": true,
+        "looped": true,
+        "speed": 1,
+        "blend_amount": 1
+      }
+    }
+  ]
+}

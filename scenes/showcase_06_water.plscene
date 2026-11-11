@@ -1,0 +1,2348 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_water.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          24,
+          15,
+          29
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.450255724820331,
+        "pitch": -0.37919519163654675,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Laboratory foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -2.5,
+          0
+        ],
+        "scale": [
+          20,
+          0.3,
+          9
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "water_absorption surface"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.8,
+          0
+        ],
+        "scale": [
+          10,
+          1,
+          14
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_water_patch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_water_absorption.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Sloping sand bed"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          -0.1,
+          0
+        ],
+        "scale": [
+          4.9,
+          0.15,
+          6.9
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          -17.25,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          -6.75,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.3,
+          -7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.3,
+          7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Depth marker 0"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.7536865900223003,
+          -5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Depth marker 1"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.42684329501115015,
+          -2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Depth marker 2"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.1,
+          0.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Depth marker 3"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          -0.22684329501115016,
+          2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Depth marker 4"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          -0.5536865900223004,
+          5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Piercing refraction target"
+      },
+      "transform": {
+        "translation": [
+          -10.5,
+          0.7,
+          1.5
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          1.08,
+          -3
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          0.86,
+          -2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          0.64,
+          -1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          0.41999999999999993,
+          0
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          0.19999999999999996,
+          1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -15,
+          -0.02000000000000013,
+          2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Pier deck"
+      },
+      "transform": {
+        "translation": [
+          -9,
+          1.6,
+          4.5
+        ],
+        "scale": [
+          0.65,
+          0.15,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          -9,
+          0.4,
+          2.5
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          -9,
+          0.4,
+          6
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "water surface"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.8,
+          0
+        ],
+        "scale": [
+          10,
+          1,
+          14
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_water_patch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_water.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Sloping sand bed"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.1,
+          0
+        ],
+        "scale": [
+          4.9,
+          0.15,
+          6.9
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          -5.25,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          5.25,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 28,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.3,
+          -7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 29,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.3,
+          7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 30,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "tag": {
+        "name": "Depth marker 0"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.7536865900223003,
+          -5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 31,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "tag": {
+        "name": "Depth marker 1"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.42684329501115015,
+          -2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 32,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "tag": {
+        "name": "Depth marker 2"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.1,
+          0.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 33,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "tag": {
+        "name": "Depth marker 3"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.22684329501115016,
+          2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 34,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "tag": {
+        "name": "Depth marker 4"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.5536865900223004,
+          5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 35,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "Piercing refraction target"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0.7,
+          1.5
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 36,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          1.08,
+          -3
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 37,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.86,
+          -2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 38,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.64,
+          -1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 39,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.41999999999999993,
+          0
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 40,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.19999999999999996,
+          1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 41,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          -0.02000000000000013,
+          2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 42,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "tag": {
+        "name": "Pier deck"
+      },
+      "transform": {
+        "translation": [
+          3,
+          1.6,
+          4.5
+        ],
+        "scale": [
+          0.65,
+          0.15,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 43,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          3,
+          0.4,
+          2.5
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 44,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          3,
+          0.4,
+          6
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 45,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "tag": {
+        "name": "ocean surface"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.8,
+          0
+        ],
+        "scale": [
+          10,
+          1,
+          14
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_water_patch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 46,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ocean.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "tag": {
+        "name": "Sloping sand bed"
+      },
+      "transform": {
+        "translation": [
+          12,
+          -0.1,
+          0
+        ],
+        "scale": [
+          4.9,
+          0.15,
+          6.9
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 47,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          6.75,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 48,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          17.25,
+          0.3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.8,
+          7.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 49,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.3,
+          -7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 50,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "tag": {
+        "name": "Pool rim"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.3,
+          7.25
+        ],
+        "scale": [
+          5.5,
+          0.8,
+          0.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 51,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "tag": {
+        "name": "Depth marker 0"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.7536865900223003,
+          -5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 52,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "tag": {
+        "name": "Depth marker 1"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.42684329501115015,
+          -2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 53,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "tag": {
+        "name": "Depth marker 2"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.1,
+          0.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 54,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "tag": {
+        "name": "Depth marker 3"
+      },
+      "transform": {
+        "translation": [
+          12,
+          -0.22684329501115016,
+          2.5
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 55,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "tag": {
+        "name": "Depth marker 4"
+      },
+      "transform": {
+        "translation": [
+          12,
+          -0.5536865900223004,
+          5.0
+        ],
+        "scale": [
+          3.8,
+          0.03,
+          0.12
+        ],
+        "rotation": [
+          0.0649542388347826,
+          0.0,
+          0.0,
+          0.9978882436713011
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 56,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_white.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "tag": {
+        "name": "Piercing refraction target"
+      },
+      "transform": {
+        "translation": [
+          13.5,
+          0.7,
+          1.5
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 57,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          1.08,
+          -3
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 58,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          0.86,
+          -2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 59,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          0.64,
+          -1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 60,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          0.41999999999999993,
+          0
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 61,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          0.19999999999999996,
+          1
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 62,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "tag": {
+        "name": "Submerged staircase"
+      },
+      "transform": {
+        "translation": [
+          9,
+          -0.02000000000000013,
+          2
+        ],
+        "scale": [
+          0.7,
+          0.12,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 63,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "tag": {
+        "name": "Pier deck"
+      },
+      "transform": {
+        "translation": [
+          15,
+          1.6,
+          4.5
+        ],
+        "scale": [
+          0.65,
+          0.15,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 64,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          15,
+          0.4,
+          2.5
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 65,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "tag": {
+        "name": "Pier post / water intersection"
+      },
+      "transform": {
+        "translation": [
+          15,
+          0.4,
+          6
+        ],
+        "scale": [
+          0.16,
+          1.4,
+          0.16
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 66,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    }
+  ]
+}

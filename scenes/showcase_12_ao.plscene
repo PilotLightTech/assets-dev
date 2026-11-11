@@ -1,0 +1,1520 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_ao.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          17,
+          13,
+          24
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.525295716193722,
+        "pitch": -0.38739434144728707,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Laboratory foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          13,
+          0.3,
+          9
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Deferred floor receiver"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          -0.04,
+          0
+        ],
+        "scale": [
+          5.6,
+          0.04,
+          8.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Deferred back wall"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          2,
+          -5
+        ],
+        "scale": [
+          4,
+          2,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Deferred corner wall"
+      },
+      "transform": {
+        "translation": [
+          -9.85,
+          2,
+          -2.5
+        ],
+        "scale": [
+          0.15,
+          2,
+          2.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Deferred floor contact sphere"
+      },
+      "transform": {
+        "translation": [
+          -7.7,
+          1,
+          -1.8
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Deferred contact cube"
+      },
+      "transform": {
+        "translation": [
+          -4.8,
+          0.7,
+          -2.5
+        ],
+        "scale": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Deferred stacked cube"
+      },
+      "transform": {
+        "translation": [
+          -4.6,
+          1.85,
+          -2.5
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Deferred narrow-gap bench"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          0.45,
+          0.8
+        ],
+        "scale": [
+          2.5,
+          0.15,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Deferred bench leg"
+      },
+      "transform": {
+        "translation": [
+          -8.1,
+          0.15,
+          0.8
+        ],
+        "scale": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Deferred bench leg"
+      },
+      "transform": {
+        "translation": [
+          -3.9,
+          0.15,
+          0.8
+        ],
+        "scale": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Deferred sphere / floor clearance 0"
+      },
+      "transform": {
+        "translation": [
+          -8.4,
+          0.45,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Deferred sphere / floor clearance 0.05"
+      },
+      "transform": {
+        "translation": [
+          -6.800000000000001,
+          0.5,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Deferred sphere / floor clearance 0.2"
+      },
+      "transform": {
+        "translation": [
+          -5.2,
+          0.65,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Deferred sphere / floor clearance 0.6"
+      },
+      "transform": {
+        "translation": [
+          -3.5999999999999996,
+          1.05,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Deferred stair crevice"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          0.075,
+          -0.8
+        ],
+        "scale": [
+          0.5,
+          0.075,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Deferred stair crevice"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          0.15,
+          -0.20000000000000007
+        ],
+        "scale": [
+          0.5,
+          0.15,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Deferred stair crevice"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          0.22499999999999998,
+          0.3999999999999999
+        ],
+        "scale": [
+          0.5,
+          0.22499999999999998,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Deferred stair crevice"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          0.3,
+          0.9999999999999998
+        ],
+        "scale": [
+          0.5,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Deferred stair crevice"
+      },
+      "transform": {
+        "translation": [
+          -3.2,
+          0.375,
+          1.5999999999999999
+        ],
+        "scale": [
+          0.5,
+          0.375,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Forward floor receiver"
+      },
+      "transform": {
+        "translation": [
+          6,
+          -0.04,
+          0
+        ],
+        "scale": [
+          5.6,
+          0.04,
+          8.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Forward back wall"
+      },
+      "transform": {
+        "translation": [
+          6,
+          2,
+          -5
+        ],
+        "scale": [
+          4,
+          2,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Forward corner wall"
+      },
+      "transform": {
+        "translation": [
+          2.15,
+          2,
+          -2.5
+        ],
+        "scale": [
+          0.15,
+          2,
+          2.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Forward floor contact sphere"
+      },
+      "transform": {
+        "translation": [
+          4.3,
+          1,
+          -1.8
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Forward contact cube"
+      },
+      "transform": {
+        "translation": [
+          7.2,
+          0.7,
+          -2.5
+        ],
+        "scale": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Forward stacked cube"
+      },
+      "transform": {
+        "translation": [
+          7.4,
+          1.85,
+          -2.5
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "Forward narrow-gap bench"
+      },
+      "transform": {
+        "translation": [
+          6,
+          0.45,
+          0.8
+        ],
+        "scale": [
+          2.5,
+          0.15,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 28,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "Forward bench leg"
+      },
+      "transform": {
+        "translation": [
+          3.9,
+          0.15,
+          0.8
+        ],
+        "scale": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 29,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "tag": {
+        "name": "Forward bench leg"
+      },
+      "transform": {
+        "translation": [
+          8.1,
+          0.15,
+          0.8
+        ],
+        "scale": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 30,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "tag": {
+        "name": "Forward sphere / floor clearance 0"
+      },
+      "transform": {
+        "translation": [
+          3.6,
+          0.45,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 31,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "tag": {
+        "name": "Forward sphere / floor clearance 0.05"
+      },
+      "transform": {
+        "translation": [
+          5.2,
+          0.5,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 32,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "tag": {
+        "name": "Forward sphere / floor clearance 0.2"
+      },
+      "transform": {
+        "translation": [
+          6.800000000000001,
+          0.65,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 33,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "tag": {
+        "name": "Forward sphere / floor clearance 0.6"
+      },
+      "transform": {
+        "translation": [
+          8.4,
+          1.05,
+          3.3
+        ],
+        "scale": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 34,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "tag": {
+        "name": "Forward stair crevice"
+      },
+      "transform": {
+        "translation": [
+          8.8,
+          0.075,
+          -0.8
+        ],
+        "scale": [
+          0.5,
+          0.075,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 35,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "Forward stair crevice"
+      },
+      "transform": {
+        "translation": [
+          8.8,
+          0.15,
+          -0.20000000000000007
+        ],
+        "scale": [
+          0.5,
+          0.15,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 36,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "tag": {
+        "name": "Forward stair crevice"
+      },
+      "transform": {
+        "translation": [
+          8.8,
+          0.22499999999999998,
+          0.3999999999999999
+        ],
+        "scale": [
+          0.5,
+          0.22499999999999998,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 37,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "tag": {
+        "name": "Forward stair crevice"
+      },
+      "transform": {
+        "translation": [
+          8.8,
+          0.3,
+          0.9999999999999998
+        ],
+        "scale": [
+          0.5,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 38,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "tag": {
+        "name": "Forward stair crevice"
+      },
+      "transform": {
+        "translation": [
+          8.8,
+          0.375,
+          1.5999999999999999
+        ],
+        "scale": [
+          0.5,
+          0.375,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 39,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "tag": {
+        "name": "masked AO edge case"
+      },
+      "transform": {
+        "translation": [
+          -5.4,
+          1.25,
+          6.5
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.3
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 40,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_masked.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "tag": {
+        "name": "masked_forward AO edge case"
+      },
+      "transform": {
+        "translation": [
+          -1.8000000000000003,
+          1.25,
+          6.5
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.3
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 41,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_masked_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "tag": {
+        "name": "foliage AO edge case"
+      },
+      "transform": {
+        "translation": [
+          1.7999999999999998,
+          1.25,
+          6.5
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.3
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 42,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_foliage.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "tag": {
+        "name": "blend AO edge case"
+      },
+      "transform": {
+        "translation": [
+          5.4,
+          1.25,
+          6.5
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.3
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 43,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_blend.plmaterial"
+        ]
+      }
+    }
+  ]
+}

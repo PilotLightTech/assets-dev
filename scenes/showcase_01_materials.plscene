@@ -1,0 +1,1480 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_quality.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          14,
+          10,
+          21
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.5535900500422257,
+        "pitch": -0.3425361845774122,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          10,
+          0.3,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          9.7,
+          0.04,
+          6.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "ceramic roughness 0"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          1.35,
+          -1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ceramic_0.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          0.2,
+          -1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "ceramic roughness 1"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          1.35,
+          -1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ceramic_1.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          0.2,
+          -1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "ceramic roughness 2"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          1.35,
+          -1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ceramic_2.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0.2,
+          -1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "ceramic roughness 3"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          1.35,
+          -1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ceramic_3.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          0.2,
+          -1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "metal roughness 0"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          1.35,
+          1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_metal_0.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          0.2,
+          1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "metal roughness 1"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          1.35,
+          1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_metal_1.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          0.2,
+          1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "metal roughness 2"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          1.35,
+          1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_metal_2.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0.2,
+          1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "metal roughness 3"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          1.35,
+          1.5
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_metal_3.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Low basalt plinth"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          0.2,
+          1.5
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Coat"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          1.35,
+          -4.7
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Plinth"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          0.2,
+          -4.7
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Sheen"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          1.35,
+          -4.7
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sheen.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Plinth"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          0.2,
+          -4.7
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Iridescent"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          1.35,
+          -4.7
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_iridescent.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Plinth"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0.2,
+          -4.7
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Glass"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          1.35,
+          -4.7
+        ],
+        "scale": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glass.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "Plinth"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          0.2,
+          -4.7
+        ],
+        "scale": [
+          1.1,
+          0.2,
+          1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 28,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "Anisotropic copper ring"
+      },
+      "transform": {
+        "translation": [
+          7.4,
+          1.7,
+          -1.5
+        ],
+        "scale": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 29,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_brushed.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "tag": {
+        "name": "FXAA diagonal edge 0"
+      },
+      "transform": {
+        "translation": [
+          -5.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 30,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "tag": {
+        "name": "FXAA diagonal edge 1"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 31,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "tag": {
+        "name": "FXAA diagonal edge 2"
+      },
+      "transform": {
+        "translation": [
+          -3.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 32,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "tag": {
+        "name": "FXAA diagonal edge 3"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 33,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "tag": {
+        "name": "FXAA diagonal edge 4"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 34,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "tag": {
+        "name": "FXAA diagonal edge 5"
+      },
+      "transform": {
+        "translation": [
+          -0.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 35,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "FXAA diagonal edge 6"
+      },
+      "transform": {
+        "translation": [
+          0.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 36,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "tag": {
+        "name": "FXAA diagonal edge 7"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 37,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "tag": {
+        "name": "FXAA diagonal edge 8"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 38,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "tag": {
+        "name": "FXAA diagonal edge 9"
+      },
+      "transform": {
+        "translation": [
+          3.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 39,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "tag": {
+        "name": "FXAA diagonal edge 10"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 40,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "tag": {
+        "name": "FXAA diagonal edge 11"
+      },
+      "transform": {
+        "translation": [
+          5.5,
+          0.12,
+          5.3
+        ],
+        "scale": [
+          0.025,
+          0.12,
+          0.8
+        ],
+        "rotation": [
+          0.0,
+          0.22310636213174545,
+          0.0,
+          0.9747941070689433
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 41,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "tag": {
+        "name": "Atelier reflection capture"
+      },
+      "transform": {
+        "translation": [
+          0,
+          3,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 20,
+        "realtime": false,
+        "include_sky": true
+      }
+    }
+  ]
+}

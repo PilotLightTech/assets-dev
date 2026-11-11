@@ -1,0 +1,785 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_integrated.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          0,
+          2.5,
+          15
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": 3.141592653589793,
+        "pitch": -0.014284742587396631,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          12,
+          0.3,
+          30
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          11.7,
+          0.04,
+          29.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Interior west wall"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          3,
+          5
+        ],
+        "scale": [
+          0.2,
+          3,
+          15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Interior east wall"
+      },
+      "transform": {
+        "translation": [
+          4,
+          3,
+          5
+        ],
+        "scale": [
+          0.2,
+          3,
+          15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_teal.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Interior roof"
+      },
+      "transform": {
+        "translation": [
+          0,
+          6.2,
+          5
+        ],
+        "scale": [
+          4.2,
+          0.2,
+          15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          1,
+          12
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          1,
+          12
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          1,
+          4
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          1,
+          4
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          1,
+          -4
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          1,
+          -4
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          1,
+          -12
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          1,
+          -12
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          1,
+          -20
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Lighting boundary receiver"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          1,
+          -20
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Courtyard column"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          4,
+          -20
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Courtyard column"
+      },
+      "transform": {
+        "translation": [
+          8,
+          4,
+          -20
+        ],
+        "scale": [
+          0.7,
+          4,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Dim interior lamp"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0,
+          4,
+          10
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.65,
+          0.35
+        ],
+        "intensity": 8,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Interior capture"
+      },
+      "transform": {
+        "translation": [
+          0,
+          2,
+          9
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 10,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Doorway capture"
+      },
+      "transform": {
+        "translation": [
+          0,
+          2,
+          -8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 9,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Courtyard capture"
+      },
+      "transform": {
+        "translation": [
+          0,
+          3,
+          -23
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 14,
+        "realtime": false,
+        "include_sky": true
+      }
+    }
+  ]
+}

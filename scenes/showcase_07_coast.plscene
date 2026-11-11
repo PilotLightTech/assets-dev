@@ -1,0 +1,406 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_coast.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_water.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          48,
+          22,
+          70
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.6120030548077167,
+        "pitch": -0.17704434271796643,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "FFT ocean / finite patch"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          220,
+          1,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_water_patch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coast_water.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Irregular island / beach, rock, grass"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          -8
+        ],
+        "scale": [
+          21,
+          20,
+          16.8
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_island.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 3,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial",
+          "/assets/dev/materials/showcase_coast_rock.plmaterial",
+          "/assets/dev/materials/showcase_coast_grass.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Irregular island / beach, rock, grass"
+      },
+      "transform": {
+        "translation": [
+          -35,
+          0,
+          -29
+        ],
+        "scale": [
+          15,
+          25,
+          12.0
+        ],
+        "rotation": [
+          0.0,
+          0.7512804051402927,
+          0.0,
+          0.6599831458849822
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_island.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 3,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial",
+          "/assets/dev/materials/showcase_coast_rock.plmaterial",
+          "/assets/dev/materials/showcase_coast_grass.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Irregular island / beach, rock, grass"
+      },
+      "transform": {
+        "translation": [
+          34,
+          0,
+          -48
+        ],
+        "scale": [
+          18,
+          15,
+          14.4
+        ],
+        "rotation": [
+          -0.0,
+          -0.3894183423086505,
+          -0.0,
+          0.9210609940028851
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_island.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 3,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial",
+          "/assets/dev/materials/showcase_coast_rock.plmaterial",
+          "/assets/dev/materials/showcase_coast_grass.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Lighthouse footing"
+      },
+      "transform": {
+        "translation": [
+          0,
+          4.5,
+          -8
+        ],
+        "scale": [
+          2.4,
+          0.3,
+          2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coast_rock.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Lighthouse tower"
+      },
+      "transform": {
+        "translation": [
+          0,
+          10.8,
+          -8
+        ],
+        "scale": [
+          1.7,
+          6,
+          1.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Lantern housing"
+      },
+      "transform": {
+        "translation": [
+          0,
+          17.1,
+          -8
+        ],
+        "scale": [
+          2.2,
+          0.4,
+          2.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Lighthouse cap"
+      },
+      "transform": {
+        "translation": [
+          0,
+          18.8,
+          -8
+        ],
+        "scale": [
+          2.5,
+          1.2,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cone.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Beacon"
+      },
+      "transform": {
+        "translation": [
+          0,
+          17.8,
+          -8
+        ],
+        "scale": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Coast reflection capture"
+      },
+      "transform": {
+        "translation": [
+          0,
+          10,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 150,
+        "realtime": false,
+        "include_sky": true
+      }
+    }
+  ]
+}

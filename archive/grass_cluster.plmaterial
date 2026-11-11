@@ -1,0 +1,26 @@
+{    
+    "format": "plmaterial", 
+    "version": 1, 
+    "model": "pbr_metallic_roughness_foliage", 
+    "base_color": [ 1, 1, 1, 1 ], 
+    "metalness": 0, 
+    "roughness": 1, 
+    "ior": 1.5, 
+    "normal_map_strength": 1, 
+    "occlusion_strength": 1, 
+    "double_sided": true, 
+    "foliage_normals": true, 
+    "alpha": {        
+        "mode": "mask", 
+        "cutoff": 0.5
+    },
+    "textures": {        
+        "base_color": {            
+            "resource": "/assets/dev/archive/grass_mask.pltexture", 
+            "uv_set": 0, 
+            "scale": [ 1, 1 ], 
+            "offset": [ 0, 0 ], 
+            "rotation": 0
+        }
+    }
+}

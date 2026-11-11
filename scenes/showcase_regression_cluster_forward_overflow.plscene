@@ -1,0 +1,8390 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_night.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_night.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          15,
+          11,
+          22
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.543173760111256,
+        "pitch": -0.3592596835267121,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          12,
+          0.3,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          11.7,
+          0.04,
+          7.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Column"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          1.7,
+          -4
+        ],
+        "scale": [
+          0.4,
+          1.7,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Lintel"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          3.6,
+          -4
+        ],
+        "scale": [
+          1.6,
+          0.16,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Column"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          1.7,
+          -4
+        ],
+        "scale": [
+          0.4,
+          1.7,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Lintel"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          3.6,
+          -4
+        ],
+        "scale": [
+          1.6,
+          0.16,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Column"
+      },
+      "transform": {
+        "translation": [
+          0,
+          1.7,
+          -4
+        ],
+        "scale": [
+          0.4,
+          1.7,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 9,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Lintel"
+      },
+      "transform": {
+        "translation": [
+          0,
+          3.6,
+          -4
+        ],
+        "scale": [
+          1.6,
+          0.16,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Column"
+      },
+      "transform": {
+        "translation": [
+          4,
+          1.7,
+          -4
+        ],
+        "scale": [
+          0.4,
+          1.7,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Lintel"
+      },
+      "transform": {
+        "translation": [
+          4,
+          3.6,
+          -4
+        ],
+        "scale": [
+          1.6,
+          0.16,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 12,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Column"
+      },
+      "transform": {
+        "translation": [
+          8,
+          1.7,
+          -4
+        ],
+        "scale": [
+          0.4,
+          1.7,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Lintel"
+      },
+      "transform": {
+        "translation": [
+          8,
+          3.6,
+          -4
+        ],
+        "scale": [
+          1.6,
+          0.16,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "sphere / deferred"
+      },
+      "transform": {
+        "translation": [
+          -6.8,
+          1,
+          0
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "sphere / forward"
+      },
+      "transform": {
+        "translation": [
+          -6.8,
+          1,
+          3.3
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "torus / deferred"
+      },
+      "transform": {
+        "translation": [
+          -3.4,
+          1,
+          0
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "torus / forward"
+      },
+      "transform": {
+        "translation": [
+          -3.4,
+          1,
+          3.3
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "cube / deferred"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          1,
+          0
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "cube / forward"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          1,
+          3.3
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "cone / deferred"
+      },
+      "transform": {
+        "translation": [
+          3.4,
+          1,
+          0
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cone.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "cone / forward"
+      },
+      "transform": {
+        "translation": [
+          3.4,
+          1,
+          3.3
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cone.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "sphere / deferred"
+      },
+      "transform": {
+        "translation": [
+          6.8,
+          1,
+          0
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "sphere / forward"
+      },
+      "transform": {
+        "translation": [
+          6.8,
+          1,
+          3.3
+        ],
+        "scale": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Contact step 0"
+      },
+      "transform": {
+        "translation": [
+          -7,
+          0.12,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Contact step 1"
+      },
+      "transform": {
+        "translation": [
+          -5,
+          0.155,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "tag": {
+        "name": "Contact step 2"
+      },
+      "transform": {
+        "translation": [
+          -3,
+          0.19,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 27,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "tag": {
+        "name": "Contact step 3"
+      },
+      "transform": {
+        "translation": [
+          -1,
+          0.225,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 28,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "tag": {
+        "name": "Contact step 4"
+      },
+      "transform": {
+        "translation": [
+          1,
+          0.26,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 29,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "tag": {
+        "name": "Contact step 5"
+      },
+      "transform": {
+        "translation": [
+          3,
+          0.29500000000000004,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 30,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "tag": {
+        "name": "Contact step 6"
+      },
+      "transform": {
+        "translation": [
+          5,
+          0.33,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 31,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "tag": {
+        "name": "Contact step 7"
+      },
+      "transform": {
+        "translation": [
+          7,
+          0.365,
+          5.8
+        ],
+        "scale": [
+          0.45,
+          0.08,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 32,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "tag": {
+        "name": "Cluster light 0"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.2,
+          2.5,
+          0.0
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 34,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.2,
+          2.5,
+          0.0
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 34,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "tag": {
+        "name": "Cluster light 1"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.10806046117362796,
+          2.5,
+          0.16829419696157932
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.10806046117362796,
+          2.5,
+          0.16829419696157932
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 36,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "tag": {
+        "name": "Cluster light 2"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.08322936730942848,
+          2.5,
+          0.18185948536513635
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 38,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.08322936730942848,
+          2.5,
+          0.18185948536513635
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 38,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "tag": {
+        "name": "Cluster light 3"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1979984993200891,
+          2.5,
+          0.028224001611973443
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 40,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.1979984993200891,
+          2.5,
+          0.028224001611973443
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 40,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "tag": {
+        "name": "Cluster light 4"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.13072872417272238,
+          2.5,
+          -0.15136049906158566
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 42,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.13072872417272238,
+          2.5,
+          -0.15136049906158566
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 42,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "tag": {
+        "name": "Cluster light 5"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.05673243709264525,
+          2.5,
+          -0.1917848549326277
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 44,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.05673243709264525,
+          2.5,
+          -0.1917848549326277
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 44,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "tag": {
+        "name": "Cluster light 6"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1920340573300732,
+          2.5,
+          -0.055883099639785175
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 46,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.1920340573300732,
+          2.5,
+          -0.055883099639785175
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 46,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "tag": {
+        "name": "Cluster light 7"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.15078045086866093,
+          2.5,
+          0.13139731974375782
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 48,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.15078045086866093,
+          2.5,
+          0.13139731974375782
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 48,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "tag": {
+        "name": "Cluster light 8"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.02910000676172271,
+          2.5,
+          0.19787164932467638
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 50,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.02910000676172271,
+          2.5,
+          0.19787164932467638
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 50,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "tag": {
+        "name": "Cluster light 9"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1822260523769354,
+          2.5,
+          0.08242369704835133
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 52,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.1822260523769354,
+          2.5,
+          0.08242369704835133
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 52,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "tag": {
+        "name": "Cluster light 10"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.1678143058152905,
+          2.5,
+          -0.10880422217787396
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 54,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.1678143058152905,
+          2.5,
+          -0.10880422217787396
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 54,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "tag": {
+        "name": "Cluster light 11"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.0008851395976101572,
+          2.5,
+          -0.1999980413101407
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 56,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.0008851395976101572,
+          2.5,
+          -0.1999980413101407
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 56,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "tag": {
+        "name": "Cluster light 12"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.16877079174649845,
+          2.5,
+          -0.107314583600087
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 58,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.16877079174649845,
+          2.5,
+          -0.107314583600087
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 58,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "tag": {
+        "name": "Cluster light 13"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.18148935629003926,
+          2.5,
+          0.08403340736532819
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 60,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.18148935629003926,
+          2.5,
+          0.08403340736532819
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 60,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "tag": {
+        "name": "Cluster light 14"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.027347443641566722,
+          2.5,
+          0.19812147113897408
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 62,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.027347443641566722,
+          2.5,
+          0.19812147113897408
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 62,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "tag": {
+        "name": "Cluster light 15"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.15193758257176426,
+          2.5,
+          0.13005756803142338
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 64,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.15193758257176426,
+          2.5,
+          0.13005756803142338
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 64,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "tag": {
+        "name": "Cluster light 16"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19153189606467694,
+          2.5,
+          -0.057580663333013066
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 66,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.19153189606467694,
+          2.5,
+          -0.057580663333013066
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 66,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "tag": {
+        "name": "Cluster light 17"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.055032667610319386,
+          2.5,
+          -0.19227949837591138
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 68,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.055032667610319386,
+          2.5,
+          -0.19227949837591138
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 68,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "tag": {
+        "name": "Cluster light 18"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.13206334164881603,
+          2.5,
+          -0.15019744935433524
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 70,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.13206334164881603,
+          2.5,
+          -0.15019744935433524
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 70,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "tag": {
+        "name": "Cluster light 19"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19774092363733387,
+          2.5,
+          0.02997544193259047
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 72,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.19774092363733387,
+          2.5,
+          0.02997544193259047
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 72,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "tag": {
+        "name": "Cluster light 20"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.0816164123626784,
+          2.5,
+          0.18258905014552554
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 74,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          0.0816164123626784,
+          2.5,
+          0.18258905014552554
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 74,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "tag": {
+        "name": "Cluster light 21"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.10954585204485368,
+          2.5,
+          0.16733112770721123
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 76,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.10954585204485368,
+          2.5,
+          0.16733112770721123
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 76,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "tag": {
+        "name": "Cluster light 22"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19999216527892744,
+          2.5,
+          -0.0017702618580807752
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 78,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.19999216527892744,
+          2.5,
+          -0.0017702618580807752
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 78,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "tag": {
+        "name": "Cluster light 23"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1065666040666795,
+          2.5,
+          -0.16924408083503414
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 80,
+      "tag": {
+        "name": "Lantern"
+      },
+      "transform": {
+        "translation": [
+          -0.1065666040666795,
+          2.5,
+          -0.16924408083503414
+        ],
+        "scale": [
+          0.09,
+          0.09,
+          0.09
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 80,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_glow.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "tag": {
+        "name": "Cluster light 24"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.0848358014673994,
+          2.5,
+          -0.18111567240132476
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 82,
+      "tag": {
+        "name": "Cluster light 25"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19824056237269472,
+          2.5,
+          -0.026470350019554608
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 83,
+      "tag": {
+        "name": "Cluster light 26"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.12938386446572808,
+          2.5,
+          0.15251169009592055
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 84,
+      "tag": {
+        "name": "Cluster light 27"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.05842776174676724,
+          2.5,
+          0.19127518568090063
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 85,
+      "tag": {
+        "name": "Cluster light 28"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19252117326271334,
+          2.5,
+          0.05418115766157381
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 86,
+      "tag": {
+        "name": "Cluster light 29"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1496115059378001,
+          2.5,
+          -0.1327267768425935
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 87,
+      "tag": {
+        "name": "Cluster light 30"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.03085028997751681,
+          2.5,
+          -0.19760632481857238
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 88,
+      "tag": {
+        "name": "Cluster light 31"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.18294847156090627,
+          2.5,
+          -0.08080752906461301
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 89,
+      "tag": {
+        "name": "Cluster light 32"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.16684467210130205,
+          2.5,
+          0.11028533624833813
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 90,
+      "tag": {
+        "name": "Cluster light 33"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.002655349444611896,
+          2.5,
+          0.19998237202145344
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 91,
+      "tag": {
+        "name": "Cluster light 34"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.16971405495692105,
+          2.5,
+          0.10581653722400478
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 92,
+      "tag": {
+        "name": "Cluster light 35"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.18073844101830136,
+          2.5,
+          -0.0856365338992302
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 93,
+      "tag": {
+        "name": "Cluster light 36"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.025592737925480936,
+          2.5,
+          -0.19835577068862317
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 94,
+      "tag": {
+        "name": "Cluster light 37"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.15308281038906868,
+          2.5,
+          -0.1287076266713999
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 95,
+      "tag": {
+        "name": "Cluster light 38"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.191014728809459,
+          2.5,
+          0.059273715741877064
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 96,
+      "tag": {
+        "name": "Cluster light 39"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.05332858647198745,
+          2.5,
+          0.19275907725681757
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 97,
+      "tag": {
+        "name": "Cluster light 40"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.13338761233045238,
+          2.5,
+          0.14902263209586977
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 98,
+      "tag": {
+        "name": "Cluster light 41"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1974678555047653,
+          2.5,
+          -0.0317245337609418
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 99,
+      "tag": {
+        "name": "Cluster light 42"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.07999706299767026,
+          2.5,
+          -0.18330430958312677
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 100,
+      "tag": {
+        "name": "Cluster light 43"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.11102266030412514,
+          2.5,
+          -0.16635494852571966
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 101,
+      "tag": {
+        "name": "Cluster light 44"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19996866172953826,
+          2.5,
+          0.0035403850210827155
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 102,
+      "tag": {
+        "name": "Cluster light 45"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.10506439776354595,
+          2.5,
+          0.1701807049068237
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 103,
+      "tag": {
+        "name": "Cluster light 46"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.08643558897695566,
+          2.5,
+          0.18035766952976184
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 104,
+      "tag": {
+        "name": "Cluster light 47"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.19846709383018576,
+          2.5,
+          0.0247146245490448
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 105,
+      "tag": {
+        "name": "Cluster light 48"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.12802886789383994,
+          2.5,
+          -0.15365093226473336
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 106,
+      "tag": {
+        "name": "Cluster light 49"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.06011850874872742,
+          2.5,
+          -0.1907505305518944
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 107,
+      "tag": {
+        "name": "Cluster light 50"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19299320569842268,
+          2.5,
+          -0.052474970740785755
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 108,
+      "tag": {
+        "name": "Cluster light 51"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.14843083936275653,
+          2.5,
+          0.13404583516867494
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 109,
+      "tag": {
+        "name": "Cluster light 52"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.0325981561591411,
+          2.5,
+          0.1973255184080971
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 110,
+      "tag": {
+        "name": "Cluster light 53"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1836565572424238,
+          2.5,
+          0.07918503003636684
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 111,
+      "tag": {
+        "name": "Cluster light 54"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.16586196657263005,
+          2.5,
+          -0.11175780977032326
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 112,
+      "tag": {
+        "name": "Cluster light 55"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.004425351252391147,
+          2.5,
+          -0.19995103467172398
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 113,
+      "tag": {
+        "name": "Cluster light 56"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.17064402154451683,
+          2.5,
+          -0.10431020041738237
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 114,
+      "tag": {
+        "name": "Cluster light 57"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.17997336539383876,
+          2.5,
+          0.087232951049565
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 115,
+      "tag": {
+        "name": "Cluster light 58"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.02383602708976386,
+          2.5,
+          0.19857452961690744
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 116,
+      "tag": {
+        "name": "Cluster light 59"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.15421604459516905,
+          2.5,
+          0.12734760142782758
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 117,
+      "tag": {
+        "name": "Cluster light 60"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19048259608303128,
+          2.5,
+          -0.06096212422044334
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 118,
+      "tag": {
+        "name": "Cluster light 61"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.0516203271876535,
+          2.5,
+          -0.1932235540016786
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 119,
+      "tag": {
+        "name": "Cluster light 62"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.13470143246471725,
+          2.5,
+          -0.14783613932984457
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 120,
+      "tag": {
+        "name": "Cluster light 63"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19717931631650995,
+          2.5,
+          0.033471140060561386
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 121,
+      "tag": {
+        "name": "Cluster light 64"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.07837144608591001,
+          2.5,
+          0.18400520763935815
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 122,
+      "tag": {
+        "name": "Cluster light 65"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.11249077024763442,
+          2.5,
+          0.1653657358980207
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 123,
+      "tag": {
+        "name": "Cluster light 66"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19992949119327,
+          2.5,
+          -0.0053102308047933595
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 124,
+      "tag": {
+        "name": "Cluster light 67"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.10355395995790102,
+          2.5,
+          -0.17110399579506447
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 125,
+      "tag": {
+        "name": "Cluster light 68"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.08802860449920814,
+          2.5,
+          -0.17958553613785827
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 126,
+      "tag": {
+        "name": "Cluster light 69"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19867807594445433,
+          2.5,
+          -0.022956962756637445
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 127,
+      "tag": {
+        "name": "Cluster light 70"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.12666384061725997,
+          2.5,
+          0.15477813631157783
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 128,
+      "tag": {
+        "name": "Cluster light 71"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.061804545633214136,
+          2.5,
+          0.19021093065087494
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 129,
+      "tag": {
+        "name": "Cluster light 72"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.1934501176547765,
+          2.5,
+          0.050764672552407256
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 130,
+      "tag": {
+        "name": "Cluster light 73"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.14723854364546318,
+          2.5,
+          -0.13535439137746152
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 131,
+      "tag": {
+        "name": "Cluster light 74"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.03434346836615551,
+          2.5,
+          -0.1970292520936495
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 132,
+      "tag": {
+        "name": "Cluster light 75"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.18435025394494986,
+          2.5,
+          -0.07755632708188609
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 133,
+      "tag": {
+        "name": "Cluster light 76"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.16486626622151157,
+          2.5,
+          0.11322152737963607
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 134,
+      "tag": {
+        "name": "Cluster light 77"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.006195006346243292,
+          2.5,
+          0.19990403171614626
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 135,
+      "tag": {
+        "name": "Cluster light 78"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.17156061864899758,
+          2.5,
+          0.10279569119750705
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 136,
+      "tag": {
+        "name": "Cluster light 79"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.17919418935819265,
+          2.5,
+          -0.08882253374150167
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 137,
+      "tag": {
+        "name": "Cluster light 80"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.022077448767809513,
+          2.5,
+          -0.19877773078467506
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 138,
+      "tag": {
+        "name": "Cluster light 81"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.15533719640432625,
+          2.5,
+          -0.12597759885489077
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 139,
+      "tag": {
+        "name": "Cluster light 82"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.18993553957650866,
+          2.5,
+          0.06264575648661704
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 140,
+      "tag": {
+        "name": "Cluster light 83"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.04990802359466763,
+          2.5,
+          0.19367289222003709
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 141,
+      "tag": {
+        "name": "Cluster light 84"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.13600469911746776,
+          2.5,
+          0.14663806401465845
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 142,
+      "tag": {
+        "name": "Cluster light 85"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1968753286788084,
+          2.5,
+          -0.03521512398971742
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 143,
+      "tag": {
+        "name": "Cluster light 86"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.07673968898994837,
+          2.5,
+          -0.18469168940081196
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 144,
+      "tag": {
+        "name": "Cluster light 87"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.1139500668530624,
+          2.5,
+          -0.16436356732616453
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 145,
+      "tag": {
+        "name": "Cluster light 88"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19987465673902494,
+          2.5,
+          0.007079660546732137
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 146,
+      "tag": {
+        "name": "Cluster light 89"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.1020354089883338,
+          2.5,
+          0.17201388116249064
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 147,
+      "tag": {
+        "name": "Cluster light 90"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.08961472322583403,
+          2.5,
+          0.1787993327201116
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 148,
+      "tag": {
+        "name": "Cluster light 91"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.19887349218564032,
+          2.5,
+          0.02119750235023137
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 149,
+      "tag": {
+        "name": "Cluster light 92"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.12528888958206783,
+          2.5,
+          -0.15589321392316094
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 150,
+      "tag": {
+        "name": "Cluster light 93"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.06348574030394033,
+          2.5,
+          -0.18965642825398946
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 151,
+      "tag": {
+        "name": "Cluster light 94"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19389187333399752,
+          2.5,
+          -0.04905039709353087
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 152,
+      "tag": {
+        "name": "Cluster light 95"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.14603471219896394,
+          2.5,
+          0.1366523429472242
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 153,
+      "tag": {
+        "name": "Cluster light 96"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.03608608985821679,
+          2.5,
+          0.196717549086869
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 154,
+      "tag": {
+        "name": "Cluster light 97"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1850295073192828,
+          2.5,
+          0.07592154780550435
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 155,
+      "tag": {
+        "name": "Cluster light 98"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.16385764905829187,
+          2.5,
+          -0.11467637439808459
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 156,
+      "tag": {
+        "name": "Cluster light 99"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.00796417607862778,
+          2.5,
+          -0.19984136683727075
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 157,
+      "tag": {
+        "name": "Cluster light 100"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1724637744575368,
+          2.5,
+          -0.10127312822195177
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 158,
+      "tag": {
+        "name": "Cluster light 101"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.17840097395763205,
+          2.5,
+          0.09040515743567012
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 159,
+      "tag": {
+        "name": "Cluster light 102"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.02031714073932427,
+          2.5,
+          0.19896535827168127
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 160,
+      "tag": {
+        "name": "Cluster light 103"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1564461779774232,
+          2.5,
+          0.12459772628846977
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 161,
+      "tag": {
+        "name": "Cluster light 104"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.18937360215024251,
+          2.5,
+          -0.06432448063250619
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 162,
+      "tag": {
+        "name": "Cluster light 105"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.04819180984724029,
+          2.5,
+          -0.19410705670749695
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 163,
+      "tag": {
+        "name": "Cluster light 106"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.13729731018139682,
+          2.5,
+          -0.14542850001617053
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 164,
+      "tag": {
+        "name": "Cluster light 107"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19655591640824413,
+          2.5,
+          0.036956348912133494
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 165,
+      "tag": {
+        "name": "Cluster light 108"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.07510191955340242,
+          2.5,
+          0.18536370108355701
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 166,
+      "tag": {
+        "name": "Cluster light 109"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.11540043578859041,
+          2.5,
+          0.1633485213272634
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 167,
+      "tag": {
+        "name": "Cluster light 110"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.1998041626629296,
+          2.5,
+          -0.008848535617014193
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 168,
+      "tag": {
+        "name": "Cluster light 111"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.10050886382907705,
+          2.5,
+          -0.17291028972212166
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 169,
+      "tag": {
+        "name": "Cluster light 112"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.09119382088885522,
+          2.5,
+          -0.17799912087336667
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 170,
+      "tag": {
+        "name": "Cluster light 113"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19905332724342628,
+          2.5,
+          -0.019436381178641805
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 171,
+      "tag": {
+        "name": "Cluster light 114"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.12390412251184198,
+          2.5,
+          0.15699607773626212
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 172,
+      "tag": {
+        "name": "Cluster light 115"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.06516196104399284,
+          2.5,
+          0.18908706680495407
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 173,
+      "tag": {
+        "name": "Cluster light 116"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19431843812576044,
+          2.5,
+          0.04733227867285721
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 174,
+      "tag": {
+        "name": "Cluster light 117"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.14481943934009475,
+          2.5,
+          -0.13793958818707783
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 175,
+      "tag": {
+        "name": "Cluster light 118"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.037825884105791685,
+          2.5,
+          -0.1963904338088167
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 176,
+      "tag": {
+        "name": "Cluster light 119"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.18569426414781529,
+          2.5,
+          -0.07428082028761805
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 177,
+      "tag": {
+        "name": "Cluster light 120"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.16283619410531236,
+          2.5,
+          0.11612223684246287
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 178,
+      "tag": {
+        "name": "Cluster light 121"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.009732721840030779,
+          2.5,
+          0.19976304494471592
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 179,
+      "tag": {
+        "name": "Cluster light 122"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.17335341821039604,
+          2.5,
+          0.09974263077927882
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 180,
+      "tag": {
+        "name": "Cluster light 123"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.17759378133837112,
+          2.5,
+          -0.09198069813791826
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 181,
+      "tag": {
+        "name": "Cluster light 124"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.018555240919532177,
+          2.5,
+          -0.1991373973778359
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 182,
+      "tag": {
+        "name": "Cluster light 125"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.15754290242884691,
+          2.5,
+          -0.12320809183773129
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 183,
+      "tag": {
+        "name": "Cluster light 126"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.18879682783046284,
+          2.5,
+          0.06599816513475641
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 184,
+      "tag": {
+        "name": "Cluster light 127"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.04647182040593159,
+          2.5,
+          0.1945260134484816
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 185,
+      "tag": {
+        "name": "Cluster light 128"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.13857916438403303,
+          2.5,
+          0.14420754210034634
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 186,
+      "tag": {
+        "name": "Cluster light 129"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.19622110452987762,
+          2.5,
+          -0.038694678407693694
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 187,
+      "tag": {
+        "name": "Cluster light 130"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.07345826609093929,
+          2.5,
+          -0.18602119003735237
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 188,
+      "tag": {
+        "name": "Cluster light 131"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.11684176342185787,
+          2.5,
+          -0.16232067742734013
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 189,
+      "tag": {
+        "name": "Cluster light 132"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19971801448799825,
+          2.5,
+          0.01061671742921165
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 190,
+      "tag": {
+        "name": "Cluster light 133"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.0989744440806861,
+          2.5,
+          0.17379315124284714
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 191,
+      "tag": {
+        "name": "Cluster light 134"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.09276577377037434,
+          2.5,
+          0.17718496329198968
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 192,
+      "tag": {
+        "name": "Cluster light 135"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.199217567028237,
+          2.5,
+          0.017673737220800286
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 193,
+      "tag": {
+        "name": "Cluster light 136"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.12250964789921992,
+          2.5,
+          -0.15808664134457776
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 194,
+      "tag": {
+        "name": "Cluster light 137"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.06683307652615215,
+          2.5,
+          -0.18850289091165018
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 195,
+      "tag": {
+        "name": "Cluster light 138"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19472977860990362,
+          2.5,
+          -0.04561045190017224
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 196,
+      "tag": {
+        "name": "Cluster light 139"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.14359282028209439,
+          2.5,
+          0.1392160262449483
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 197,
+      "tag": {
+        "name": "Cluster light 140"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.039562714800853646,
+          2.5,
+          0.19604793188806233
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 198,
+      "tag": {
+        "name": "Cluster light 141"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.18634447234870402,
+          2.5,
+          0.0726342730746518
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 199,
+      "tag": {
+        "name": "Cluster light 142"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.16180198139071952,
+          2.5,
+          -0.1175590014334813
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 200,
+      "tag": {
+        "name": "Cluster light 143"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.011500505069824841,
+          2.5,
+          -0.19966907217478358
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 201,
+      "tag": {
+        "name": "Cluster light 144"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1742294802064687,
+          2.5,
+          -0.09820431877969388
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 202,
+      "tag": {
+        "name": "Cluster light 145"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.17677267474170005,
+          2.5,
+          0.09354903240902668
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 203,
+      "tag": {
+        "name": "Cluster light 146"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.016791887348369696,
+          2.5,
+          0.19929383462435477
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 204,
+      "tag": {
+        "name": "Cluster light 147"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.1586272838332957,
+          2.5,
+          0.12180880437665849
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 205,
+      "tag": {
+        "name": "Cluster light 148"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.18820526180582875,
+          2.5,
+          -0.0676666788648553
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 206,
+      "tag": {
+        "name": "Cluster light 149"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.04474819002711674,
+          2.5,
+          -0.19492972961889896
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 207,
+      "tag": {
+        "name": "Cluster light 150"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.13985016129567504,
+          2.5,
+          -0.14297528592583295
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 208,
+      "tag": {
+        "name": "Cluster light 151"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.19587091927528572,
+          2.5,
+          0.04042997628313073
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 209,
+      "tag": {
+        "name": "Cluster light 152"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.07180885737822322,
+          2.5,
+          0.1866641047497724
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 210,
+      "tag": {
+        "name": "Cluster light 153"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.11827393682886495,
+          2.5,
+          0.16128011615509727
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 211,
+      "tag": {
+        "name": "Cluster light 154"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19961621896370008,
+          2.5,
+          -0.012384067451211463
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 212,
+      "tag": {
+        "name": "Cluster light 155"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.0974322699606683,
+          2.5,
+          -0.17466239655492954
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 213,
+      "tag": {
+        "name": "Cluster light 156"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.09433045871226774,
+          2.5,
+          -0.17635692376295622
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 214,
+      "tag": {
+        "name": "Cluster light 157"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.1993661986723435,
+          2.5,
+          -0.01590970857494442
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 215,
+      "tag": {
+        "name": "Cluster light 158"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.12110557499739796,
+          2.5,
+          0.15916481930549106
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 216,
+      "tag": {
+        "name": "Cluster light 159"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.06849895582318141,
+          2.5,
+          0.18790394634262966
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 217,
+      "tag": {
+        "name": "Cluster light 160"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.19512586255904749,
+          2.5,
+          0.04388505167580095
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 218,
+      "tag": {
+        "name": "Cluster light 161"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.14235495112714472,
+          2.5,
+          -0.14048155711547422
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 219,
+      "tag": {
+        "name": "Cluster light 162"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.04129644586756223,
+          2.5,
+          -0.19569007015867593
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 220,
+      "tag": {
+        "name": "Cluster light 163"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.1869800809799501,
+          2.5,
+          -0.07098203516898707
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 221,
+      "tag": {
+        "name": "Cluster light 164"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1607550919421948,
+          2.5,
+          0.11898655560464172
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 222,
+      "tag": {
+        "name": "Cluster light 165"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.013267387267124748,
+          2.5,
+          0.19955945588997814
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 223,
+      "tag": {
+        "name": "Cluster light 166"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.17509189180874102,
+          2.5,
+          0.09665831274565131
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 224,
+      "tag": {
+        "name": "Cluster light 167"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.17593771849903048,
+          2.5,
+          -0.09511003737437976
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 225,
+      "tag": {
+        "name": "Cluster light 168"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.015027218179670647,
+          2.5,
+          -0.19943465775481597
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 226,
+      "tag": {
+        "name": "Cluster light 169"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.15969923723251112,
+          2.5,
+          -0.12039997353552093
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 227,
+      "tag": {
+        "name": "Cluster light 170"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1875989504238883,
+          2.5,
+          0.06932989109940606
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 228,
+      "tag": {
+        "name": "Cluster light 171"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.043021053752428234,
+          2.5,
+          0.19531817358871317
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 229,
+      "tag": {
+        "name": "Cluster light 172"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.14111020133726,
+          2.5,
+          0.14173182803646453
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 230,
+      "tag": {
+        "name": "Cluster light 173"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.19550538808050627,
+          2.5,
+          -0.042162106582696264
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 231,
+      "tag": {
+        "name": "Cluster light 174"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.07015382264182614,
+          2.5,
+          -0.18729239485024265
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 232,
+      "tag": {
+        "name": "Cluster light 175"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.11969684380281993,
+          2.5,
+          -0.16022691903560815
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 233,
+      "tag": {
+        "name": "Cluster light 176"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19949878406543045,
+          2.5,
+          0.014150447216069034
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 234,
+      "tag": {
+        "name": "Cluster light 177"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.09588246229406439,
+          2.5,
+          0.17551795755542315
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 235,
+      "tag": {
+        "name": "Cluster light 178"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.09588775312583454,
+          2.5,
+          0.17551506716085377
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 236,
+      "tag": {
+        "name": "Cluster light 179"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.19949921053087105,
+          2.5,
+          0.01414443344779825
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 237,
+      "tag": {
+        "name": "Cluster light 180"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.11969201381157163,
+          2.5,
+          -0.1602305271467661
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 238,
+      "tag": {
+        "name": "Cluster light 181"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.07015946841808428,
+          2.5,
+          -0.18729028002352882
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 239,
+      "tag": {
+        "name": "Cluster light 182"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.19550665894111938,
+          2.5,
+          -0.04215621318003831
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 240,
+      "tag": {
+        "name": "Cluster light 183"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.1411059288588412,
+          2.5,
+          0.14173608164784168
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 241,
+      "tag": {
+        "name": "Cluster light 184"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.04302694147292419,
+          2.5,
+          0.1953168766581259
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 242,
+      "tag": {
+        "name": "Cluster light 185"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.18760104024339008,
+          2.5,
+          0.0693242360188552
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 243,
+      "tag": {
+        "name": "Cluster light 186"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          -0.15969560778060646,
+          2.5,
+          -0.12040478751105665
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 244,
+      "tag": {
+        "name": "Cluster light 187"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.015033230001638654,
+          2.5,
+          -0.19943420467842982
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 245,
+      "tag": {
+        "name": "Cluster light 188"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.1759405854496694,
+          2.5,
+          -0.09510473380241168
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 246,
+      "tag": {
+        "name": "Cluster light 189"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          0.17508897802685505,
+          2.5,
+          0.09666359073359254
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          1,
+          0.16,
+          0.04
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 247,
+      "tag": {
+        "name": "Cluster light 190"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          0.013261371670342255,
+          2.5,
+          0.19955985573612006
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.04,
+          0.5,
+          1
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 248,
+      "tag": {
+        "name": "Cluster light 191"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -0.16075867864193435,
+          2.5,
+          0.11898170969228541
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.2,
+          1,
+          0.5
+        ],
+        "intensity": 0.4,
+        "range": 12,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": false,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 249,
+      "tag": {
+        "name": "Shadowed warm spot"
+      },
+      "light": {
+        "type": "spot",
+        "position": [
+          -5,
+          5,
+          2
+        ],
+        "direction": [
+          0.2,
+          -1,
+          -0.2
+        ],
+        "color": [
+          1,
+          0.6,
+          0.3
+        ],
+        "intensity": 90,
+        "range": 14,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": true,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    },
+    {
+      "id": 250,
+      "tag": {
+        "name": "Shadowed cool point"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          5,
+          3,
+          2
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "color": [
+          0.3,
+          0.6,
+          1
+        ],
+        "intensity": 40,
+        "range": 10,
+        "radius": 0.05,
+        "shadow_resolution": 512,
+        "inner_cone_angle": 0.35,
+        "outer_cone_angle": 0.75,
+        "casts_shadow": true,
+        "contact_shadows": true,
+        "visualizer": false
+      }
+    }
+  ]
+}

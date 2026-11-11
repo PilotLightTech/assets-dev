@@ -1,0 +1,896 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_quality.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          15,
+          10,
+          24
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.5829933382462307,
+        "pitch": -0.30788709157199157,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          14,
+          0.3,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          13.7,
+          0.04,
+          6.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "coral alcove"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          2,
+          -4.5
+        ],
+        "scale": [
+          3.3,
+          2,
+          0.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coral.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "coral local probe"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          2,
+          -1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 6,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Reflective torus"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          1.5,
+          -1
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "teal alcove"
+      },
+      "transform": {
+        "translation": [
+          0,
+          2,
+          -4.5
+        ],
+        "scale": [
+          3.3,
+          2,
+          0.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 8,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_teal.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "teal local probe"
+      },
+      "transform": {
+        "translation": [
+          0,
+          2,
+          -1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 6,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Reflective torus"
+      },
+      "transform": {
+        "translation": [
+          0,
+          1.5,
+          -1
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 10,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "sand alcove"
+      },
+      "transform": {
+        "translation": [
+          8,
+          2,
+          -4.5
+        ],
+        "scale": [
+          3.3,
+          2,
+          0.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 11,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_sand.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "sand local probe"
+      },
+      "transform": {
+        "translation": [
+          8,
+          2,
+          -1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 6,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Reflective torus"
+      },
+      "transform": {
+        "translation": [
+          8,
+          1.5,
+          -1
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_torus.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Probe boundary sample 0"
+      },
+      "transform": {
+        "translation": [
+          -12,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Probe boundary sample 1"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Probe boundary sample 2"
+      },
+      "transform": {
+        "translation": [
+          -8,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Probe boundary sample 3"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Probe boundary sample 4"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Probe boundary sample 5"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 19,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Probe boundary sample 6"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 20,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Probe boundary sample 7"
+      },
+      "transform": {
+        "translation": [
+          2,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 21,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Probe boundary sample 8"
+      },
+      "transform": {
+        "translation": [
+          4,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 22,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Probe boundary sample 9"
+      },
+      "transform": {
+        "translation": [
+          6,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 23,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "tag": {
+        "name": "Probe boundary sample 10"
+      },
+      "transform": {
+        "translation": [
+          8,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 24,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "tag": {
+        "name": "Probe boundary sample 11"
+      },
+      "transform": {
+        "translation": [
+          10,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 25,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_coat.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "tag": {
+        "name": "Probe boundary sample 12"
+      },
+      "transform": {
+        "translation": [
+          12,
+          0.65,
+          3
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 26,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_chrome.plmaterial"
+        ]
+      }
+    }
+  ]
+}

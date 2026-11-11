@@ -1,0 +1,32 @@
+{
+  "format": "plmaterial",
+  "version": 1,
+  "model": "pbr_metallic_roughness",
+  "base_color": [
+    1,
+    0.8,
+    0.4,
+    1
+  ],
+  "roughness": 0.08,
+  "metalness": 0,
+  "ior": 1.5,
+  "normal_map_strength": 1,
+  "occlusion_strength": 1,
+  "alpha": {
+    "mode": "opaque",
+    "cutoff": 0.5
+  },
+  "transmission": {
+    "factor": 1
+  },
+  "volume": {
+    "thickness": 1.5,
+    "attenuation_color": [
+      1,
+      0.45,
+      0.08
+    ],
+    "attenuation_distance": 1
+  }
+}

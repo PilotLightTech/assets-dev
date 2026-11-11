@@ -1,0 +1,632 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_day.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_quality.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "projection": "perspective",
+        "position": [
+          11,
+          8,
+          16
+        ],
+        "near": 0.1,
+        "far": 500,
+        "yaw": -2.539305307454829,
+        "pitch": -0.34601437678220653,
+        "roll": 0,
+        "yfov": 1.0471975511965976
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Basalt foundation"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "scale": [
+          9,
+          0.3,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 3,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_basalt.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Ivory inset"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.04,
+          0
+        ],
+        "scale": [
+          8.7,
+          0.04,
+          6.7
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 4,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Curved receiver"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          1,
+          -2
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 5,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Forward receiver"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.6,
+          -2
+        ],
+        "scale": [
+          1.2,
+          0.6,
+          1.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 6,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Wall receiver"
+      },
+      "transform": {
+        "translation": [
+          4,
+          2,
+          -3
+        ],
+        "scale": [
+          2,
+          2,
+          0.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 7,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Floor projector 0 / sort 0"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          0.5,
+          1
+        ],
+        "rotation": [
+          -0.7071067811865476,
+          -0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "scale": [
+          3,
+          3,
+          3
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_coral.plmaterial",
+        "enabled": true,
+        "opacity": 1,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.1,
+        "sort_order": 0
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Floor projector 1 / sort 1"
+      },
+      "transform": {
+        "translation": [
+          -0.8,
+          0.5,
+          1
+        ],
+        "rotation": [
+          -0.7071067811865476,
+          -0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "scale": [
+          3,
+          3,
+          3
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_teal.plmaterial",
+        "enabled": true,
+        "opacity": 1,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.1,
+        "sort_order": 1
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Floor projector 2 / sort 0"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          0.5,
+          -2
+        ],
+        "rotation": [
+          -0.7071067811865476,
+          -0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "scale": [
+          3,
+          3,
+          3
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_teal.plmaterial",
+        "enabled": true,
+        "opacity": 1,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.1,
+        "sort_order": 0
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Floor projector 3 / sort 0"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.5,
+          -2
+        ],
+        "rotation": [
+          -0.7071067811865476,
+          -0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "scale": [
+          3,
+          3,
+          3
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_coral.plmaterial",
+        "enabled": true,
+        "opacity": 1,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.1,
+        "sort_order": 0
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Vertical wall stencil"
+      },
+      "transform": {
+        "translation": [
+          4,
+          2,
+          -2.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          3,
+          3,
+          0.8
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_teal.plmaterial",
+        "enabled": true,
+        "opacity": 0.8,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.1,
+        "sort_order": 2
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "masked screen"
+      },
+      "transform": {
+        "translation": [
+          -4.800000000000001,
+          1.6,
+          4.8
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.8
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 13,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_masked.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "masked_forward screen"
+      },
+      "transform": {
+        "translation": [
+          -1.6,
+          1.6,
+          4.8
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.8
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 14,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_masked_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "foliage screen"
+      },
+      "transform": {
+        "translation": [
+          1.6,
+          1.6,
+          4.8
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.8
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 15,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_foliage.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "blend screen"
+      },
+      "transform": {
+        "translation": [
+          4.800000000000001,
+          1.6,
+          4.8
+        ],
+        "scale": [
+          2.3,
+          1,
+          2.8
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_plane.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 16,
+        "casts_shadow": false,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_blend.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Corner receiver A"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          1.6,
+          0
+        ],
+        "scale": [
+          0.15,
+          1.6,
+          1.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 17,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_ivory.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Corner receiver B / forward"
+      },
+      "transform": {
+        "translation": [
+          -4.6,
+          1.6,
+          -1.35
+        ],
+        "scale": [
+          1.25,
+          1.6,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_cube.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 18,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_forward.plmaterial"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Oblique corner projector / normal rejection"
+      },
+      "transform": {
+        "translation": [
+          -5.3,
+          1.6,
+          -0.3
+        ],
+        "rotation": [
+          0.0,
+          0.3826834323650898,
+          0.0,
+          0.9238795325112867
+        ],
+        "scale": [
+          3,
+          3,
+          3
+        ]
+      },
+      "decal": {
+        "material": "/assets/dev/materials/showcase_decal_coral.plmaterial",
+        "enabled": true,
+        "opacity": 1,
+        "edge_fade": 0.08,
+        "normal_cutoff": 0.25,
+        "sort_order": 3
+      }
+    }
+  ]
+}
