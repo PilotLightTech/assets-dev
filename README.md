@@ -2,7 +2,7 @@
 
 Editable development scenes and their supporting assets. These files are the source of truth; no scene-generation step is required.
 
-The repository contains 12 showcase scenes, 10 focused regression scenes, and all referenced meshes, materials, textures, environments, renderer settings, and animation clips. The coast scene retains its generated island mesh.
+The repository contains 14 showcase scenes, 10 focused regression scenes, and all referenced meshes, materials, textures, environments, renderer settings, and animation clips. The coast scene retains its generated island mesh.
 
 ## Using the assets
 
@@ -26,6 +26,8 @@ The camera script is supplied by Pilot Light (`pl_script_camera`). No external m
 - `scenes/showcase_10_corridor.plscene`
 - `scenes/showcase_11_motion.plscene`
 - `scenes/showcase_12_ao.plscene`
+- `scenes/showcase_13_physics.plscene`
+- `scenes/showcase_14_navigation.plscene`
 - `scenes/showcase_regression_cluster_deferred_distributed.plscene`
 - `scenes/showcase_regression_cluster_deferred_overflow.plscene`
 - `scenes/showcase_regression_cluster_deferred_sparse.plscene`
@@ -36,3 +38,7 @@ The camera script is supplied by Pilot Light (`pl_script_camera`). No external m
 - `scenes/showcase_regression_shadow_point.plscene`
 - `scenes/showcase_regression_shadow_spot.plscene`
 - `scenes/showcase_regression_shadow_sun.plscene`
+
+## Physics and navigation
+
+See [SHOWCASES.md](SHOWCASES.md) for the physics and navigation walkthroughs. These scenes use ordinary serialized components and the standard Physics, ECS, and Scene tools; no app-specific demo UI or scripts are required beyond the existing camera script. Their supporting assets are split between meshes, materials, textures, terrains, settings, and environments, with all asset references contained in `/assets/dev`.

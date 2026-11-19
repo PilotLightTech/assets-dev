@@ -1,0 +1,1087 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Physics showcase settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_simulation_realistic.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_physics_physics.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "yaw": 3.141592653589793,
+        "pitch": -0.62,
+        "position": [
+          0,
+          23,
+          34
+        ],
+        "roll": 0,
+        "yfov": 1.04719755,
+        "far": 250,
+        "near": 0.1,
+        "projection": "perspective"
+      },
+      "script": {
+        "reloadable": true,
+        "playing": true,
+        "play_once": false,
+        "file": "pl_script_camera"
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Infinite plane (outline shows a small patch)"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          25,
+          1,
+          47
+        ]
+      },
+      "object": {
+        "transform": 3,
+        "mesh": "/assets/dev/meshes/showcase_simulation_plane.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_ground.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "plane",
+        "mass": 0,
+        "friction": 0.7
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Static triangle mesh ramp"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 4,
+        "mesh": "/assets/dev/meshes/showcase_physics_ramp.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_ground.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "triangle_mesh",
+        "mass": 0,
+        "collision_asset": "/assets/dev/meshes/showcase_physics_ramp.plmesh",
+        "friction": 0.7
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Terrain heightfield"
+      },
+      "terrain": {
+        "terrain": "/assets/dev/terrains/showcase_physics_ground.plterrain",
+        "tau": 0.1
+      },
+      "rigid_body": {
+        "shape": "terrain",
+        "mass": 0,
+        "collision_asset": "/assets/dev/terrains/showcase_physics_ground.plterrain",
+        "friction": 0.7
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Plane / box"
+      },
+      "transform": {
+        "translation": [
+          -7.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 6,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "box",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Plane / sphere"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.09983341664682815,
+          0.9950041652780258
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "transform": 7,
+        "mesh": "/assets/dev/meshes/showcase_simulation_sphere.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "sphere",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Plane / capsule"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.19866933079506122,
+          0.9800665778412416
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 8,
+        "mesh": "/assets/dev/meshes/showcase_physics_capsule.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "capsule",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Plane / cylinder"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.2955202066613396,
+          0.955336489125606
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 9,
+        "mesh": "/assets/dev/meshes/showcase_physics_cylinder.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cylinder",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Plane / cone"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.3894183423086505,
+          0.9210609940028851
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 10,
+        "mesh": "/assets/dev/meshes/showcase_physics_cone.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cone",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Plane / convex_hull"
+      },
+      "transform": {
+        "translation": [
+          7.5,
+          4,
+          -12
+        ],
+        "rotation": [
+          0,
+          0,
+          0.479425538604203,
+          0.8775825618903728
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 11,
+        "mesh": "/assets/dev/meshes/showcase_physics_hull.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "convex_hull",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1,
+        "collision_asset": "/assets/dev/meshes/showcase_physics_hull.plmesh"
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Mesh ramp / box"
+      },
+      "transform": {
+        "translation": [
+          -7.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 12,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "box",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Mesh ramp / sphere"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.09983341664682815,
+          0.9950041652780258
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "transform": 13,
+        "mesh": "/assets/dev/meshes/showcase_simulation_sphere.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "sphere",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Mesh ramp / capsule"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.19866933079506122,
+          0.9800665778412416
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 14,
+        "mesh": "/assets/dev/meshes/showcase_physics_capsule.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "capsule",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Mesh ramp / cylinder"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.2955202066613396,
+          0.955336489125606
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 15,
+        "mesh": "/assets/dev/meshes/showcase_physics_cylinder.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cylinder",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Mesh ramp / cone"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.3894183423086505,
+          0.9210609940028851
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 16,
+        "mesh": "/assets/dev/meshes/showcase_physics_cone.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cone",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Mesh ramp / convex_hull"
+      },
+      "transform": {
+        "translation": [
+          7.5,
+          5,
+          -5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0.479425538604203,
+          0.8775825618903728
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 17,
+        "mesh": "/assets/dev/meshes/showcase_physics_hull.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "convex_hull",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1,
+        "collision_asset": "/assets/dev/meshes/showcase_physics_hull.plmesh"
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "Terrain / box"
+      },
+      "transform": {
+        "translation": [
+          -7.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 18,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "box",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Terrain / sphere"
+      },
+      "transform": {
+        "translation": [
+          -4.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.09983341664682815,
+          0.9950041652780258
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "transform": 19,
+        "mesh": "/assets/dev/meshes/showcase_simulation_sphere.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "sphere",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Terrain / capsule"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.19866933079506122,
+          0.9800665778412416
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 20,
+        "mesh": "/assets/dev/meshes/showcase_physics_capsule.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "capsule",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Terrain / cylinder"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.2955202066613396,
+          0.955336489125606
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 21,
+        "mesh": "/assets/dev/meshes/showcase_physics_cylinder.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cylinder",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 22,
+      "tag": {
+        "name": "Terrain / cone"
+      },
+      "transform": {
+        "translation": [
+          4.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.3894183423086505,
+          0.9210609940028851
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 22,
+        "mesh": "/assets/dev/meshes/showcase_physics_cone.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "cone",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1
+      }
+    },
+    {
+      "id": 23,
+      "tag": {
+        "name": "Terrain / convex_hull"
+      },
+      "transform": {
+        "translation": [
+          7.5,
+          6,
+          7
+        ],
+        "rotation": [
+          0,
+          0,
+          0.479425538604203,
+          0.8775825618903728
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "transform": 23,
+        "mesh": "/assets/dev/meshes/showcase_physics_hull.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_physics_body.plmaterial"
+        ],
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true
+      },
+      "rigid_body": {
+        "shape": "convex_hull",
+        "mass": 1,
+        "radius": 0.5,
+        "height": 1,
+        "extents": [
+          1,
+          1,
+          1
+        ],
+        "friction": 0.7,
+        "restitution": 0.1,
+        "linear_damping": 0.05,
+        "angular_damping": 0.1,
+        "collision_asset": "/assets/dev/meshes/showcase_physics_hull.plmesh"
+      }
+    },
+    {
+      "id": 100,
+      "tag": {
+        "name": "Showcase key light"
+      },
+      "light": {
+        "type": "direction",
+        "direction": [
+          0.3,
+          -1,
+          0.25
+        ],
+        "color": [
+          1,
+          0.95,
+          0.88
+        ],
+        "intensity": 2,
+        "casts_shadow": true,
+        "visualizer": false,
+        "shadow_resolution": 1024
+      }
+    }
+  ]
+}

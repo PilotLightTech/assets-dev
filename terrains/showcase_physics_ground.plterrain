@@ -1,0 +1,35 @@
+{
+  "format": "plterrain",
+  "version": 1,
+  "meters_per_pixel": 0.75,
+  "center": [
+    0,
+    0,
+    10
+  ],
+  "tile_size": 32,
+  "grid": {
+    "columns": 1,
+    "rows": 1
+  },
+  "tiles": [
+    {
+      "heightmap": "/assets/dev/textures/showcase_physics_heightmap.pltexture",
+      "min_height": 0,
+      "max_height": 2,
+      "generation": {
+        "tree_depth": 3,
+        "max_base_error": 0.01
+      }
+    }
+  ],
+  "elevation_zones": [
+    {
+      "min_elevation": -100,
+      "max_elevation": 100,
+      "blend_size": 1,
+      "flat_material": "/assets/dev/materials/showcase_physics_ground.plmaterial",
+      "steep_material": "/assets/dev/materials/showcase_physics_ground.plmaterial"
+    }
+  ]
+}

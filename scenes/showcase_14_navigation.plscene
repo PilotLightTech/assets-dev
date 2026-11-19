@@ -1,0 +1,1405 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Navigation settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_simulation_realistic.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_navigation_navigation.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "camera": {
+        "yaw": 3.141592653589793,
+        "pitch": -0.66,
+        "position": [
+          0,
+          27,
+          34
+        ],
+        "roll": 0,
+        "yfov": 1.04719755,
+        "far": 200,
+        "projection": "perspective",
+        "near": 0.1
+      },
+      "script": {
+        "reloadable": true,
+        "playing": true,
+        "play_once": false,
+        "file": "pl_script_camera"
+      }
+    },
+    {
+      "id": 3,
+      "tag": {
+        "name": "Maze floor"
+      },
+      "transform": {
+        "translation": [
+          -8.0,
+          -0.30000000000000004,
+          0.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.0,
+          0.5,
+          24.0
+        ]
+      },
+      "object": {
+        "transform": 3,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_floor.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 3,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 4,
+      "tag": {
+        "name": "Maze wall A"
+      },
+      "transform": {
+        "translation": [
+          -9.5,
+          1.9500000000000002,
+          -3.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.8999999999999986,
+          4.0,
+          18.0
+        ]
+      },
+      "object": {
+        "transform": 4,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_wall.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 4,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 5,
+      "tag": {
+        "name": "Maze wall B"
+      },
+      "transform": {
+        "translation": [
+          -6.5,
+          1.9500000000000002,
+          3.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.9000000000000004,
+          4.0,
+          18.0
+        ]
+      },
+      "object": {
+        "transform": 5,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_wall.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 5,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 6,
+      "tag": {
+        "name": "Corner clearance pillar"
+      },
+      "transform": {
+        "translation": [
+          -11.5,
+          0.95,
+          8.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.3999999999999986,
+          2.0,
+          1.3999999999999995
+        ]
+      },
+      "object": {
+        "transform": 6,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_wall.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 6,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 7,
+      "tag": {
+        "name": "Stairs and roof floor"
+      },
+      "transform": {
+        "translation": [
+          7.0,
+          -0.30000000000000004,
+          -8.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.0,
+          0.5,
+          7.0
+        ]
+      },
+      "object": {
+        "transform": 7,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_floor.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 7,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 8,
+      "tag": {
+        "name": "Step 1"
+      },
+      "transform": {
+        "translation": [
+          3.55,
+          0.2,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          0.5,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 8,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 8,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 9,
+      "tag": {
+        "name": "Step 2"
+      },
+      "transform": {
+        "translation": [
+          4.55,
+          0.44999999999999996,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 9,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 9,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 10,
+      "tag": {
+        "name": "Step 3"
+      },
+      "transform": {
+        "translation": [
+          5.55,
+          0.7,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.5,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 10,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 11,
+      "tag": {
+        "name": "Step 4"
+      },
+      "transform": {
+        "translation": [
+          6.55,
+          0.95,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 11,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 11,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 12,
+      "tag": {
+        "name": "Step 5"
+      },
+      "transform": {
+        "translation": [
+          7.550000000000001,
+          1.2000000000000002,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0000000000000009,
+          2.5,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 12,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 12,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 13,
+      "tag": {
+        "name": "Step 6"
+      },
+      "transform": {
+        "translation": [
+          8.55,
+          1.4500000000000002,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          3.0,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 13,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 13,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 14,
+      "tag": {
+        "name": "Raised destination platform"
+      },
+      "transform": {
+        "translation": [
+          11.025,
+          1.4500000000000002,
+          -9.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          3.9499999999999993,
+          3.0,
+          3.0
+        ]
+      },
+      "object": {
+        "transform": 14,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 14,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 15,
+      "tag": {
+        "name": "Low roof"
+      },
+      "transform": {
+        "translation": [
+          6.0,
+          1.7,
+          -6.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          6.0,
+          0.5,
+          1.9
+        ]
+      },
+      "object": {
+        "transform": 15,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_overhead.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 15,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 16,
+      "tag": {
+        "name": "Bridge start platform"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          0.95,
+          2.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          3.0,
+          2.0,
+          4.0
+        ]
+      },
+      "object": {
+        "transform": 16,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 16,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 17,
+      "tag": {
+        "name": "Bridge end platform"
+      },
+      "transform": {
+        "translation": [
+          11.5,
+          0.95,
+          2.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          3.0,
+          2.0,
+          4.0
+        ]
+      },
+      "object": {
+        "transform": 17,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_stair.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 17,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 18,
+      "tag": {
+        "name": "One cell bridge"
+      },
+      "transform": {
+        "translation": [
+          7.0,
+          1.725,
+          1.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          6.0,
+          0.44999999999999996,
+          0.3999999999999999
+        ]
+      },
+      "object": {
+        "transform": 18,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_overhead.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 18,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 19,
+      "tag": {
+        "name": "Flight floor"
+      },
+      "transform": {
+        "translation": [
+          7.0,
+          -0.30000000000000004,
+          10.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.0,
+          0.5,
+          6.0
+        ]
+      },
+      "object": {
+        "transform": 19,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_floor.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 19,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 20,
+      "tag": {
+        "name": "Flight low wall"
+      },
+      "transform": {
+        "translation": [
+          5.25,
+          1.9500000000000002,
+          10.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.5,
+          4.0,
+          6.0
+        ]
+      },
+      "object": {
+        "transform": 20,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_wall.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 20,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 21,
+      "tag": {
+        "name": "Flight hanging barrier"
+      },
+      "transform": {
+        "translation": [
+          9.25,
+          5.0,
+          10.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.5,
+          6.0,
+          6.0
+        ]
+      },
+      "object": {
+        "transform": 21,
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_overhead.plmaterial"
+        ],
+        "first_submesh": 0,
+        "receives_shadow": true,
+        "casts_shadow": true,
+        "submesh_count": 1,
+        "renderable": true
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 21,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 10001,
+      "tag": {
+        "name": "Navigation volume"
+      },
+      "voxel_volume": {
+        "min": [
+          -16,
+          -1,
+          -14
+        ],
+        "max": [
+          16,
+          9,
+          14
+        ],
+        "voxel_size": 0.5,
+        "layers": 1,
+        "fill_interior": true
+      }
+    },
+    {
+      "id": 10002,
+      "tag": {
+        "name": "Maze walker"
+      },
+      "transform": {
+        "translation": [
+          -12.75,
+          0.75,
+          -10.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10002,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 3,
+        "radius": 0,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": false,
+        "ground_support": 0
+      }
+    },
+    {
+      "id": 10003,
+      "tag": {
+        "name": "Maze walker goal"
+      },
+      "transform": {
+        "translation": [
+          -3.25,
+          0.75,
+          10.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10003,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    },
+    {
+      "id": 10004,
+      "tag": {
+        "name": "Stair climber"
+      },
+      "transform": {
+        "translation": [
+          2.25,
+          0.75,
+          -9.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10004,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 3,
+        "radius": 0,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": false,
+        "ground_support": 0
+      }
+    },
+    {
+      "id": 10005,
+      "tag": {
+        "name": "Stair climber goal"
+      },
+      "transform": {
+        "translation": [
+          11.25,
+          3.75,
+          -9.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10005,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    },
+    {
+      "id": 10006,
+      "tag": {
+        "name": "Low roof - short agent"
+      },
+      "transform": {
+        "translation": [
+          2.25,
+          0.75,
+          -5.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10006,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 1,
+        "radius": 0,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": false,
+        "ground_support": 0
+      }
+    },
+    {
+      "id": 10007,
+      "tag": {
+        "name": "Low roof - short agent goal"
+      },
+      "transform": {
+        "translation": [
+          10.25,
+          0.75,
+          -5.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10007,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    },
+    {
+      "id": 10008,
+      "tag": {
+        "name": "Bridge - center support"
+      },
+      "transform": {
+        "translation": [
+          2.75,
+          2.75,
+          1.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10008,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 3,
+        "radius": 1,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": false,
+        "ground_support": 1
+      }
+    },
+    {
+      "id": 10009,
+      "tag": {
+        "name": "Bridge - center support goal"
+      },
+      "transform": {
+        "translation": [
+          11.25,
+          2.75,
+          1.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10009,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    },
+    {
+      "id": 10010,
+      "tag": {
+        "name": "Bridge - full support"
+      },
+      "transform": {
+        "translation": [
+          2.75,
+          2.75,
+          1.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10010,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 3,
+        "radius": 1,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": false,
+        "ground_support": 0
+      }
+    },
+    {
+      "id": 10011,
+      "tag": {
+        "name": "Bridge - full support goal"
+      },
+      "transform": {
+        "translation": [
+          11.25,
+          2.75,
+          1.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10011,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    },
+    {
+      "id": 10012,
+      "tag": {
+        "name": "Flying agent"
+      },
+      "transform": {
+        "translation": [
+          2.25,
+          2.75,
+          10.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10012,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_start.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      },
+      "path_agent": {
+        "volume": 10001,
+        "height": 1,
+        "radius": 0,
+        "max_step": 1,
+        "snap_radius": 2,
+        "max_nodes": 65536,
+        "simplify": true,
+        "diagonal": true,
+        "flying": true,
+        "ground_support": 0
+      }
+    },
+    {
+      "id": 10013,
+      "tag": {
+        "name": "Flying agent goal"
+      },
+      "transform": {
+        "translation": [
+          11.75,
+          2.75,
+          10.25
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_simulation_cube.plmesh",
+        "transform": 10013,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_navigation_goal.plmaterial"
+        ],
+        "renderable": true,
+        "casts_shadow": false,
+        "receives_shadow": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "format": "plenvironment",
+  "version": 1,
+  "sun": {
+    "color": [
+      1.0,
+      0.95,
+      0.85
+    ],
+    "direction": [
+      0.425,
+      -1.0,
+      -0.384
+    ],
+    "intensity": 3.0,
+    "cast_shadows": true
+  },
+  "sky": {
+    "mode": "realistic",
+    "realistic": {
+      "atmosphere_scale": 0.001,
+      "sun_radius": 0.00465,
+      "planet_radius": 6371.0,
+      "atmosphere_height": 100.0,
+      "mie_scattering": 0.006,
+      "mie_extinction": 0.00666,
+      "mie_exponent": 0.76,
+      "rayleigh_scattering": [
+        0.0058,
+        0.0135,
+        0.0331
+      ],
+      "rayleigh_extinction": [
+        0.0058,
+        0.0135,
+        0.0331
+      ],
+      "ozone_extinction": [
+        0.00065,
+        0.00188,
+        8e-05
+      ],
+      "multiscatter": true,
+      "night": {
+        "enabled": true,
+        "star_intensity": 1.0,
+        "star_rotation": 0.0,
+        "moon_phase": 0.5,
+        "moon_intensity": 1.0,
+        "moon_radius": 0.01356,
+        "moonlight_enabled": true,
+        "moonlight_intensity": 0.03,
+        "moonlight_color": [
+          0.9,
+          0.93,
+          1.0
+        ]
+      },
+      "clouds": {
+        "enabled": false
+      },
+      "aerial_perspective": {
+        "enabled": true,
+        "max_distance": 10.0,
+        "depth_exponent": 2.0,
+        "samples_per_slice": 8
+      }
+    }
+  }
+}

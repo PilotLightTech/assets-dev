@@ -1,0 +1,22 @@
+{
+  "format": "plmaterial",
+  "version": 1,
+  "model": "pbr_metallic_roughness",
+  "base_color": [
+    0.65,
+    0.28,
+    0.08,
+    1
+  ],
+  "metalness": 0,
+  "roughness": 0.75,
+  "double_sided": true,
+  "emissive": {
+    "strength": 0.15,
+    "color": [
+      0.65,
+      0.28,
+      0.08
+    ]
+  }
+}

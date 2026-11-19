@@ -1,0 +1,22 @@
+{
+  "format": "plrenderer",
+  "version": 1,
+  "lighting": {
+    "punctual_lights": true,
+    "normal_mapping": false,
+    "shadows": true,
+    "image_based": false
+  },
+  "shadows": {
+    "resolution": 1024,
+    "cascade_count": 3,
+    "pcf": true,
+    "max_range": 100
+  },
+  "bloom": {
+    "enabled": false
+  },
+  "fxaa": {
+    "enabled": true
+  }
+}
