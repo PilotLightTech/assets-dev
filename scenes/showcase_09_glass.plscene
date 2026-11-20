@@ -1215,13 +1215,61 @@
           1
         ]
       },
-      "probe": {
+      "reflection_probe": {
         "resolution": 128,
         "samples": 128,
         "interval": 1,
         "range": 25,
+        "capture_range": 0,
+        "parallax_correction_box": false,
         "realtime": false,
         "include_sky": true
+      }
+    },
+    {
+      "id": 36,
+      "tag": {
+        "name": "Diffuse probe volume"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          2.5,
+          0.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "diffuse_probe_volume": {
+        "resolution": 32,
+        "samples": 128,
+        "interval": 1,
+        "range": 4.0,
+        "capture_range": 100.0,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true,
+        "spacing": [
+          3.0,
+          2.0,
+          3.0
+        ],
+        "probe_count": [
+          8,
+          3,
+          6
+        ],
+        "visibility": true,
+        "normal_bias": 0.05
       }
     }
   ]

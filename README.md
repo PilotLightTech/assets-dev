@@ -24,7 +24,7 @@ The camera script is supplied by Pilot Light (`pl_script_camera`). No external m
 - `scenes/showcase_08_shadows.plscene`
 - `scenes/showcase_09_glass.plscene`
 - `scenes/showcase_10_corridor.plscene`
-- `scenes/showcase_11_motion.plscene`
+- `scenes/showcase_11_atrium.plscene`
 - `scenes/showcase_12_ao.plscene`
 - `scenes/showcase_13_physics.plscene`
 - `scenes/showcase_14_navigation.plscene`

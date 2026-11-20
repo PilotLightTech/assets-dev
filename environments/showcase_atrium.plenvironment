@@ -1,0 +1,59 @@
+{    
+    "format": "plenvironment", 
+    "version": 1, 
+    "sun": {        
+        "color": [ 1, 0.949999988, 0.850000024 ], 
+        "direction": [ 0.0968766063, -0.765151143, 0.636520803 ], 
+        "intensity": 3, 
+        "cast_shadows": true, 
+        "contact_shadows": true, 
+        "show_visualizer": false, 
+        "debug_cascades": false
+    }, 
+    "sky": {        
+        "mode": "realistic", 
+        "realistic": {            
+            "atmosphere_scale": 0.00100000005, 
+            "sun_radius": 0.00465000002, 
+            "planet_radius": 6371, 
+            "atmosphere_height": 100, 
+            "mie_scattering": 0.00600000005, 
+            "mie_extinction": 0.00665999996, 
+            "mie_exponent": 0.75999999, 
+            "rayleigh_scattering": [ 0.00579999993, 0.0135000004, 0.0331000015 ], 
+            "rayleigh_extinction": [ 0.00579999993, 0.0135000004, 0.0331000015 ], 
+            "ozone_extinction": [ 0.000650000002, 0.00188, 7.9999998e-05 ], 
+            "multiscatter": true, 
+            "night": {                
+                "enabled": true, 
+                "star_intensity": 1, 
+                "star_rotation": 0, 
+                "moon_phase": 0.5, 
+                "moon_intensity": 1, 
+                "moon_radius": 0.0135599999, 
+                "moonlight_enabled": true, 
+                "moonlight_intensity": 0.0299999993, 
+                "moonlight_color": [ 0.899999976, 0.930000007, 1 ]
+            }, 
+            "clouds": {                
+                "enabled": false, 
+                "multiple_scattering": 1, 
+                "temporal_blend": 0.899999976, 
+                "coverage": 0.550000012, 
+                "base_height": 1.5, 
+                "thickness": 2.5, 
+                "extinction": 12, 
+                "scale": 0.649999976, 
+                "wind": [ 0.00999999978, 0.00300000003 ], 
+                "steps": 64, 
+                "resolution_divisor": 2
+            }, 
+            "aerial_perspective": {                
+                "enabled": true, 
+                "max_distance": 10, 
+                "depth_exponent": 2, 
+                "samples_per_slice": 8
+            }
+        }
+    }
+}

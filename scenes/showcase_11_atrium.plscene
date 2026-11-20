@@ -1,0 +1,3574 @@
+{
+  "format": "plscene",
+  "version": 1,
+  "entities": [
+    {
+      "id": 1,
+      "tag": {
+        "name": "Scene settings"
+      },
+      "environment": {
+        "environment": "/assets/dev/environments/showcase_atrium.plenvironment"
+      },
+      "renderer": {
+        "renderer": "/assets/dev/settings/showcase_atrium.plrenderer"
+      }
+    },
+    {
+      "id": 2,
+      "tag": {
+        "name": "Main Camera"
+      },
+      "script": {
+        "file": "pl_script_camera",
+        "playing": true,
+        "play_once": false,
+        "reloadable": true
+      },
+      "camera": {
+        "projection": "perspective",
+        "depth_mode": "reverse",
+        "position": [
+          -6.981758668014663,
+          3.2221503438532904,
+          0.39793453946185764
+        ],
+        "near": 0.100000001,
+        "far": 200,
+        "pitch": -0.0950024724,
+        "yaw": 1.42955291,
+        "roll": 0,
+        "yfov": 1.04719758
+      }
+    },
+    {
+      "id": 101,
+      "tag": {
+        "name": "Ground slab"
+      },
+      "transform": {
+        "translation": [
+          6,
+          -0.150000006,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          22,
+          0.150000006,
+          14
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 101,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_floor.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 101,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 102,
+      "tag": {
+        "name": "Fountain basin"
+      },
+      "transform": {
+        "translation": [
+          -1.29999995,
+          0.300000012,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          2,
+          0.300000012,
+          2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 102,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "transform": 102,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 103,
+      "tag": {
+        "name": "Fountain column"
+      },
+      "transform": {
+        "translation": [
+          -1.29999995,
+          1.39999998,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          0.800000012,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 103,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "transform": 103,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 104,
+      "tag": {
+        "name": "Fountain sphere"
+      },
+      "transform": {
+        "translation": [
+          -1.29999995,
+          2.70000005,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 104,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "transform": 104,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 105,
+      "tag": {
+        "name": "Court block"
+      },
+      "transform": {
+        "translation": [
+          -11,
+          0.5,
+          -5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 105,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 105,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 106,
+      "tag": {
+        "name": "Court block stacked"
+      },
+      "transform": {
+        "translation": [
+          -11.1000004,
+          1.29999995,
+          -5.0999999
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          0.300000012,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 106,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 106,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 107,
+      "tag": {
+        "name": "Court sphere"
+      },
+      "transform": {
+        "translation": [
+          4,
+          0.75,
+          -4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 107,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "transform": 107,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 108,
+      "tag": {
+        "name": "Court sphere red"
+      },
+      "transform": {
+        "translation": [
+          -4,
+          0.5,
+          4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 108,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_red.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "transform": 108,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 109,
+      "tag": {
+        "name": "Court plinth"
+      },
+      "transform": {
+        "translation": [
+          8,
+          0.200000003,
+          3.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          0.200000003,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 109,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 109,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 110,
+      "tag": {
+        "name": "North arcade bay 0"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 110,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 110,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 111,
+      "tag": {
+        "name": "North upper arcade bay 0"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 111,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 111,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 112,
+      "tag": {
+        "name": "North arcade bay 1"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 112,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 112,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 113,
+      "tag": {
+        "name": "North upper arcade bay 1"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 113,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 113,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 114,
+      "tag": {
+        "name": "North arcade bay 2"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 114,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 114,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 115,
+      "tag": {
+        "name": "North upper arcade bay 2"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 115,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 115,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 116,
+      "tag": {
+        "name": "North arcade bay 3"
+      },
+      "transform": {
+        "translation": [
+          2,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 116,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 116,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 117,
+      "tag": {
+        "name": "North upper arcade bay 3"
+      },
+      "transform": {
+        "translation": [
+          2,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 117,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 117,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 118,
+      "tag": {
+        "name": "North arcade bay 4"
+      },
+      "transform": {
+        "translation": [
+          6,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 118,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 118,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 119,
+      "tag": {
+        "name": "North upper arcade bay 4"
+      },
+      "transform": {
+        "translation": [
+          6,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 119,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 119,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 120,
+      "tag": {
+        "name": "North arcade bay 5"
+      },
+      "transform": {
+        "translation": [
+          10,
+          0,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 120,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 120,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 121,
+      "tag": {
+        "name": "North upper arcade bay 5"
+      },
+      "transform": {
+        "translation": [
+          10,
+          6.4000001,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 121,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 121,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 122,
+      "tag": {
+        "name": "North gallery floor slab"
+      },
+      "transform": {
+        "translation": [
+          0,
+          6.19999981,
+          8.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          0.200000003,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 122,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 122,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 123,
+      "tag": {
+        "name": "North roof slab"
+      },
+      "transform": {
+        "translation": [
+          0,
+          11.1000004,
+          8.60000038
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.4472237,
+          0.200000003,
+          2.54793262
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 123,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 123,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 124,
+      "tag": {
+        "name": "North attic band"
+      },
+      "transform": {
+        "translation": [
+          0,
+          11.8999996,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          0.600000024,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 124,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 124,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 125,
+      "tag": {
+        "name": "North rear wall"
+      },
+      "transform": {
+        "translation": [
+          0,
+          6.25,
+          10.8999996
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          6.25,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 125,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 125,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 126,
+      "tag": {
+        "name": "North gallery crate"
+      },
+      "transform": {
+        "translation": [
+          -8.55000019,
+          0.449999988,
+          9.55000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.449999988,
+          0.449999988,
+          0.449999988
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 126,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 126,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 127,
+      "tag": {
+        "name": "North gallery bench"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          0.25,
+          9.69999981
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.5,
+          0.25,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 127,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 127,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 128,
+      "tag": {
+        "name": "South arcade bay 0"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 128,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 128,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 129,
+      "tag": {
+        "name": "South upper arcade bay 0"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 129,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 129,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 130,
+      "tag": {
+        "name": "South arcade bay 1"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 130,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 130,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 131,
+      "tag": {
+        "name": "South upper arcade bay 1"
+      },
+      "transform": {
+        "translation": [
+          -6,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 131,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 131,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 132,
+      "tag": {
+        "name": "South arcade bay 2"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 132,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 132,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 133,
+      "tag": {
+        "name": "South upper arcade bay 2"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 133,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 133,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 134,
+      "tag": {
+        "name": "South arcade bay 3"
+      },
+      "transform": {
+        "translation": [
+          2,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 134,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 134,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 135,
+      "tag": {
+        "name": "South upper arcade bay 3"
+      },
+      "transform": {
+        "translation": [
+          2,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 135,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 135,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 136,
+      "tag": {
+        "name": "South arcade bay 4"
+      },
+      "transform": {
+        "translation": [
+          6,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 136,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 136,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 137,
+      "tag": {
+        "name": "South upper arcade bay 4"
+      },
+      "transform": {
+        "translation": [
+          6,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 137,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 137,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 138,
+      "tag": {
+        "name": "South arcade bay 5"
+      },
+      "transform": {
+        "translation": [
+          10,
+          0,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 138,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 138,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 139,
+      "tag": {
+        "name": "South upper arcade bay 5"
+      },
+      "transform": {
+        "translation": [
+          10,
+          6.4000001,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 139,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 139,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 140,
+      "tag": {
+        "name": "South gallery floor slab"
+      },
+      "transform": {
+        "translation": [
+          0,
+          6.19999981,
+          -8.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          0.200000003,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 140,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 140,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 141,
+      "tag": {
+        "name": "South roof slab"
+      },
+      "transform": {
+        "translation": [
+          0,
+          11.1000004,
+          -8.60000038
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.2719574,
+          0.200000003,
+          2.55815649
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 141,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 141,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 142,
+      "tag": {
+        "name": "South attic band"
+      },
+      "transform": {
+        "translation": [
+          0,
+          11.8999996,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          0.600000024,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 142,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 142,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 143,
+      "tag": {
+        "name": "South rear wall"
+      },
+      "transform": {
+        "translation": [
+          0,
+          6.25,
+          -10.8999996
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          12.6000004,
+          6.25,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 143,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 143,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 144,
+      "tag": {
+        "name": "South gallery crate"
+      },
+      "transform": {
+        "translation": [
+          -8.55000019,
+          0.449999988,
+          -9.55000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.449999988,
+          0.449999988,
+          0.449999988
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 144,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 144,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 145,
+      "tag": {
+        "name": "South gallery bench"
+      },
+      "transform": {
+        "translation": [
+          2.5,
+          0.25,
+          -9.69999981
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.5,
+          0.25,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 145,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 145,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 146,
+      "tag": {
+        "name": "Curtain red"
+      },
+      "transform": {
+        "translation": [
+          -10,
+          8.10000038,
+          6.875
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1.5,
+          0.0250000004
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 146,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_red.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 146,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 147,
+      "tag": {
+        "name": "Curtain green"
+      },
+      "transform": {
+        "translation": [
+          -2,
+          8.10000038,
+          6.875
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1.5,
+          0.0250000004
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 147,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_green.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 147,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 148,
+      "tag": {
+        "name": "Curtain blue"
+      },
+      "transform": {
+        "translation": [
+          6,
+          8.10000038,
+          6.875
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1.5,
+          0.0250000004
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 148,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_blue.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 148,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 149,
+      "tag": {
+        "name": "Curtain south red"
+      },
+      "transform": {
+        "translation": [
+          6,
+          2,
+          -6.92500019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1.60000002,
+          0.0250000004
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 149,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_red.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 149,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 150,
+      "tag": {
+        "name": "Gallery end wall -12 N"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          6.25,
+          8.89999962
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          6.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 150,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 150,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 151,
+      "tag": {
+        "name": "Gallery end wall -12 S"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          6.25,
+          -8.89999962
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          6.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 151,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 151,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 152,
+      "tag": {
+        "name": "Gallery end wall +12 N"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          6.25,
+          8.89999962
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          6.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 152,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 152,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 153,
+      "tag": {
+        "name": "Gallery end wall +12 S"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          6.25,
+          -8.89999962
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          6.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 153,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 153,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 154,
+      "tag": {
+        "name": "West wall lower"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          3.20000005,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          3.20000005,
+          6.5999999
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 154,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 154,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 155,
+      "tag": {
+        "name": "West window bay"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          6.4000001,
+          0
+        ],
+        "rotation": [
+          0,
+          0.707106769,
+          0,
+          0.707106769
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 155,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 155,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 156,
+      "tag": {
+        "name": "West wall left"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          8.64999962,
+          -4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          2.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 156,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 156,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 157,
+      "tag": {
+        "name": "West wall right"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          8.64999962,
+          4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          2.25,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 157,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 157,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 158,
+      "tag": {
+        "name": "West wall top"
+      },
+      "transform": {
+        "translation": [
+          -12.3000002,
+          11.6999998,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          0.800000012,
+          6.5999999
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 158,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 158,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 159,
+      "tag": {
+        "name": "Hall doorway"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0.707106769,
+          0,
+          0.707106769
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 159,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch.plmesh",
+        "transform": 159,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 160,
+      "tag": {
+        "name": "East wall left"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          3,
+          -4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          3,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 160,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 160,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 161,
+      "tag": {
+        "name": "East wall right"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          3,
+          4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          3,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 161,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 161,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 162,
+      "tag": {
+        "name": "East wall upper"
+      },
+      "transform": {
+        "translation": [
+          12.3000002,
+          9.25,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          3.25,
+          6.5999999
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 162,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 162,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 163,
+      "tag": {
+        "name": "Hall north wall"
+      },
+      "transform": {
+        "translation": [
+          18.8999996,
+          4,
+          6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          6.30000019,
+          4,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 163,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 163,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 164,
+      "tag": {
+        "name": "Hall south wall"
+      },
+      "transform": {
+        "translation": [
+          18.8999996,
+          4,
+          -6.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          6.30000019,
+          4,
+          0.300000012
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 164,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 164,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 165,
+      "tag": {
+        "name": "Hall east wall sill"
+      },
+      "transform": {
+        "translation": [
+          24.8999996,
+          1,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          1,
+          2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 165,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 165,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 166,
+      "tag": {
+        "name": "Hall east window"
+      },
+      "transform": {
+        "translation": [
+          24.8999996,
+          2,
+          0
+        ],
+        "rotation": [
+          0,
+          0.707106769,
+          0,
+          0.707106769
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 166,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_arch_small.plmesh",
+        "transform": 166,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 167,
+      "tag": {
+        "name": "Hall east wall lintel"
+      },
+      "transform": {
+        "translation": [
+          24.8999996,
+          7.25,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          0.75,
+          2
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 167,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 167,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 168,
+      "tag": {
+        "name": "Hall east wall left"
+      },
+      "transform": {
+        "translation": [
+          24.8999996,
+          4,
+          -4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          4,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 168,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 168,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 169,
+      "tag": {
+        "name": "Hall east wall right"
+      },
+      "transform": {
+        "translation": [
+          24.8999996,
+          4,
+          4.30000019
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.300000012,
+          4,
+          2.29999995
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 169,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 169,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 170,
+      "tag": {
+        "name": "Hall roof"
+      },
+      "transform": {
+        "translation": [
+          18.7298374,
+          8.19999981,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          6.5999999,
+          0.200000003,
+          6.5999999
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 170,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_dark.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 170,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 171,
+      "tag": {
+        "name": "Hall column -1.4"
+      },
+      "transform": {
+        "translation": [
+          18.6000004,
+          4,
+          -1.45000005
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.400000006,
+          4,
+          0.400000006
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 171,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "transform": 171,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 172,
+      "tag": {
+        "name": "Hall column +1.4"
+      },
+      "transform": {
+        "translation": [
+          18.6000004,
+          4,
+          1.45000005
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.400000006,
+          4,
+          0.400000006
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 172,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_stone.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_cylinder.plmesh",
+        "transform": 172,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 173,
+      "tag": {
+        "name": "Hall table"
+      },
+      "transform": {
+        "translation": [
+          16,
+          0.400000006,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          0.400000006,
+          1
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 173,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 173,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 174,
+      "tag": {
+        "name": "Hall sphere blue"
+      },
+      "transform": {
+        "translation": [
+          21.7999992,
+          0.600000024,
+          4.4000001
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.600000024,
+          0.600000024,
+          0.600000024
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 174,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_blue.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_sphere.plmesh",
+        "transform": 174,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 175,
+      "tag": {
+        "name": "Hall corner block"
+      },
+      "transform": {
+        "translation": [
+          24.25,
+          0.75,
+          -5.44999981
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.25,
+          0.75,
+          0.449999988
+        ]
+      },
+      "object": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "transform": 175,
+        "casts_shadow": true,
+        "receives_shadow": true,
+        "renderable": true,
+        "material_overrides": [
+          "/assets/dev/materials/showcase_atrium_white.plmaterial"
+        ]
+      },
+      "voxel_geometry": {
+        "mesh": "/assets/dev/meshes/showcase_atrium_box.plmesh",
+        "transform": 175,
+        "first_submesh": 0,
+        "submesh_count": 1,
+        "layers": 1,
+        "enabled": true
+      }
+    },
+    {
+      "id": 176,
+      "tag": {
+        "name": "Hall lamp"
+      },
+      "light": {
+        "type": "point",
+        "position": [
+          15.5,
+          6,
+          0
+        ],
+        "radius": 0.0500000007,
+        "shadow_resolution": 1024,
+        "intensity": 6,
+        "range": 14,
+        "casts_shadow": true,
+        "contact_shadows": true,
+        "visualizer": true,
+        "color": [
+          1,
+          0.75,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": 177,
+      "tag": {
+        "name": "Courtyard reflection"
+      },
+      "transform": {
+        "translation": [
+          0,
+          4,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "reflection_probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 14,
+        "capture_range": 0,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 178,
+      "tag": {
+        "name": "North gallery reflection"
+      },
+      "transform": {
+        "translation": [
+          0,
+          3,
+          8.60000038
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "reflection_probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 9,
+        "capture_range": 0,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 179,
+      "tag": {
+        "name": "South gallery reflection"
+      },
+      "transform": {
+        "translation": [
+          0,
+          3,
+          -8.60000038
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "reflection_probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 9,
+        "capture_range": 0,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 180,
+      "tag": {
+        "name": "Hall reflection"
+      },
+      "transform": {
+        "translation": [
+          18.6000004,
+          3,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "reflection_probe": {
+        "resolution": 128,
+        "samples": 128,
+        "interval": 1,
+        "range": 9,
+        "capture_range": 0,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true
+      }
+    },
+    {
+      "id": 181,
+      "tag": {
+        "name": "Diffuse probe volume"
+      },
+      "transform": {
+        "translation": [
+          6.5,
+          6.80000019,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "diffuse_probe_volume": {
+        "resolution": 32,
+        "samples": 128,
+        "interval": 6,
+        "range": 4,
+        "capture_range": 100,
+        "parallax_correction_box": false,
+        "realtime": false,
+        "include_sky": true,
+        "spacing": [
+          2.5999999,
+          2.9000001,
+          2.9000001
+        ],
+        "probe_count": [
+          16,
+          5,
+          12
+        ],
+        "visibility": true,
+        "normal_bias": 0.5
+      }
+    },
+    {
+      "id": 182,
+      "tag": {
+        "name": "Voxel volume"
+      },
+      "voxel_volume": {
+        "min": [
+          -16.5,
+          -0.5,
+          -14.5
+        ],
+        "max": [
+          28.5,
+          13.0,
+          14.5
+        ],
+        "voxel_size": 0.25,
+        "layers": 1,
+        "fill_interior": true
+      }
+    }
+  ]
+}
